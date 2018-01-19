@@ -1,0 +1,68 @@
+TABLE.userFemale
+{
+    border: 1px solid #FF9BDE;
+}
+TABLE.userFemale, TABLE.userMale 
+{
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+TABLE.userFemale:hover, TABLE.userMale:hover {
+  -webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.25);
+  -moz-box-shadow:3px 3px 5px rgba(0,0,0,0.25);
+  box-shadow:3px 3px 5px rgba(0,0,0,0.25);
+}
+TABLE.userFemale { border:solid 1px #ff9bde; }
+TABLE.userFemale:hover { border:solid 1px #ff1cb4; }
+TABLE.userMale { border:solid 1px #9b9dff; }
+TABLE.userMale:hover { border:solid 1px #1c20ff; }
+SPAN.userMale, SPAN.userMale   A { color:#green !important; }
+SPAN.userFemale, SPAN.userFemale A { color:#B8080E !important; }
+SPAN.userAdministrator, SPAN.userAdministrator A { color:#006600 !important; }
+SPAN.userFemale SPAN.userDeleted A {
+  color:#666666 !important;
+  text-decoration:line-through;
+}
+SPAN.userMale SPAN.userDeleted A {
+  color:#666666 !important;
+  text-decoration:line-through;
+}
+SPAN.userMale   A {
+  color:#green !important;
+  padding-left:12px;
+  background-image:url(../images/male_8x12.gif);
+  background-position:left center;
+  background-repeat:no-repeat;
+}
+SPAN.userFemale A {
+  color:#B8080E !important;
+  padding-left:12px;
+  background-image:url(../images/female_8x12.gif);
+  background-position:left center;
+  background-repeat:no-repeat;
+}
+SPAN.userAdministrator A {
+  color:#006600 !important;
+  padding-left:12px;
+  background-image:url(../images/admin_8x12.gif);
+  background-position:left center;
+  background-repeat:no-repeat;
+}
+DIV.box DIV.boxContent {
+    margin: 0;
+    padding: 5px 25px;
+}
+#content {
+    color: #B8080E;
+}
+DIV.box {
+    background-clip: padding-box;
+    background-color: #F3FAED;
+    border: 1px solid #B8080E;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.50);
+    margin-bottom: 25px;
+	width:940px;
+}

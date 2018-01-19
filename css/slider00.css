@@ -1,0 +1,36 @@
+/*
+    anythingSlider v1.0
+    
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+
+.anythingSlider                         { height: 180px; position: relative; margin: 0 auto; }
+.anythingSlider .wrapper                { width: 650px; overflow: auto; height: 180px; position: absolute; top: 0; left: 0; }
+.anythingSlider .wrapper ul             { width: 9999px; list-style: none; position: absolute; top: 0; left: 0; margin: 0; }
+.anythingSlider ul li                   { display: block; float: left; padding: 0; height: 180px; width: 130px; margin: 0; }
+.anythingSlider .arrow                  { display: block; height: 180px; width: 67px; background: url(http://static.matrimonialsindia.com/images/arrows00.png) no-repeat 0 0; text-indent: -9999px; position: absolute; top: -20px; cursor: pointer; }
+.anythingSlider .forward                { background-position: 0 0; right: -52px; }
+.anythingSlider .back                   { background-position: -57px 0; left: -52px; }
+.anythingSlider .forward:hover          { background-position: 0 -200px; }
+.anythingSlider .back:hover             { background-position: -67px -200px; }
+
+#thumbNav                               { position: relative; top: 175px; text-align: center; }
+#thumbNav a                             { color: black; font: 11px/18px arial, Serif; display: inline-block; padding: 2px 8px; height: 18px; margin: 0 5px 0 0; background: #acc504 url(http://static.matrimonialsindia.com/images/cellshad.png) repeat-x; text-align: center; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+#thumbNav a:hover                       { background-image: none; }
+#thumbNav a.cur                         { background: #acc504; }
+
+/*
+#start-stop                             { background: green; background-image: url(http://static.matrimonialsindia.com/images/cellshad.png); background-repeat: repeat-x; color: white; padding: 2px 5px; width: 40px; text-align: center; position: absolute; right: 45px; top: 175px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+#start-stop.playing                     { background-color: #d71e1e; }
+*/
+
+#start-stop:hover                       { background-image: none; }
+
+/*
+  Prevents
+*/
+.anythingSlider .wrapper ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
+.anythingSlider .wrapper ul ul li       { float: none; height: auto; width: auto; background: none; }

@@ -1,0 +1,148 @@
+.prices {
+    float: right;
+    width: 370px;
+}
+
+#product_view {
+    font-size: 12px;
+}
+.typemale {
+    background: none repeat scroll 0 0 #BF5049;
+    color: #000000;
+}
+.ticket {
+    border: 1px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 360px;
+}
+.ticket_height {
+    font-size: 14px;
+    line-height: 30px;
+}
+.typefemale {
+    background: none repeat scroll 0 0 #64AF2E;
+    color: #000000;
+}
+.tick_right {
+    float: right;
+}
+
+.persondet {
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.persondet_inner {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B3D335;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+#carttable {
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%;
+}
+
+#carttable .index {
+    text-align: left;
+}
+
+.bordright {
+    border-right: 1px solid #B3D335;
+}
+#carttable {
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+#carttable a, #carttable a:link, #carttable a:visited {
+    color: #445248;
+    text-decoration: none;
+}
+#carttable a, #carttable a:link, #carttable a:visited {
+    color: #445248;
+    text-decoration: none;
+}
+#carttable .index {
+    text-align: left;
+}
+
+#carttable {
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+#carttable th {
+    border-bottom: 1px solid #B3D335;
+    padding: 5px;
+}
+
+#carttable .index {
+    text-align: left;
+}
+#carttable td {
+    border-bottom: 1px solid #B3D335;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+#carttable .head {
+    font-weight: bold;
+    text-align: right;
+}
+
+#carttable .index {
+    text-align: left;
+}
+.my-page h4 {
+    background-image: url("../images/regis-hed.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #B8080E;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+*::-moz-selection {
+    background: none repeat scroll 0 0 #DA171F;
+    color: #FFFFFF;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #DA171F;
+    color: #FFFFFF;
+}
+.text-field {
+    border: 1px solid #D8D8D8;
+    box-shadow: 0 0 5px #D6D6D6 inset;
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 2px;
+}
+.text-field {
+    border: 1px solid #D8D8D8;
+    box-shadow: 0 0 5px #D6D6D6 inset;
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 2px;
+}
+label.error
+{
+font-size:11px;
+background-color:#FF3300;
+color:#000000;
+padding:1px;
+margin-left:5px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+.error {  background: #ffcece url(../images/cross_circ.png) !important;  border-color: #df8f8f; color: #665252; }

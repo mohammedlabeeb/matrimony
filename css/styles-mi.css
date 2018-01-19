@@ -1,0 +1,598 @@
+/*********** SELECTORS STYLES  ***********/
+body { background:#fff url(http://static.matrimonialsindia.com/images-mi/n_bdy.gif); font-family:Arial, Helvetica; font-size:12px; line-height:1.3em; table-layout:fixed; }
+body, fieldset, form, h1, h2, h3, h4, h5, h6, p { margin:0px; padding:0px; }
+h1, h2, h3, h4, h5, h6, form { display:inline; }
+h1 { font-size:1.6em; }
+h2 { font-size:1.5em; }
+h3 { font-size:1.4em; }
+hr { height:1px; color:#ccc; background:#ccc; border:0; }
+img { border:0px; }
+li { margin-bottom:5px; }
+ol { margin:5px 0 5px 30px; padding:0; }
+ul { margin:5px 0 5px 30px; padding:0; }
+ul ul, ol ol, ol ul, ul ol { margin-left:30px; }
+blockquote { margin:5px 20px; }
+fieldset { border:1px solid #ccc; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select, textarea { font-size:1em; font-family:Arial, Helvetica, sans-serif; outline:none; }
+select { border:1px solid #ccc; }
+textarea { border:1px solid #ccc; padding:2px; overflow:auto; }
+a{ color:#000; text-decoration:none; }
+a:hover{ text-decoration:none; color:#d00; }
+
+.input { padding:1px 2px 1px 4px; border:1px solid #a9c793; background:#fff repeat-x !important; }
+.button { background:#f1f1f1; border:1px solid #ccc; padding:0 5px; overflow:visible; }
+
+/***** FONT STYLES *****/
+.lh0em { line-height:0em; }
+.lh02em { line-height:0.2em; }
+.lh05em { line-height:0.5em; }
+.lh1em { line-height:1em; }
+.lh12em { line-height:1.2em; }
+.lh15em { line-height:1.5em; }
+.lh2em { line-height:2em; }
+
+.xsmall { font-size:0.8em; }
+.small { font-size:0.9em; }
+.large { font-size:1.1em; }
+.xlarge { font-size:1.2em; }
+.fs13px { font-size:13px; }
+.fs15px { font-size:15px; }
+.fs18px { font-size:18px; }
+.fs25px { font-size:25px; }
+
+.ffan { font-family:"Arial Narrow", Arial; }
+.ffh { font-family:Helvetica; }
+.fft { font-family:Tahoma; }
+.fftms { font-family:"Trebuchet MS", Arial; }
+.ffv { font-family:Verdana; }
+.geo { font-family:Georgia, "Times New Roman", Times, serif; }
+
+.black, .black a{ color:#000; } .black a:hover{ color:#c00; }
+.gray, .gray a{ color:#666; } .gray a:hover{ color:#000; }
+.maroon, .maroon a{ color:#c00; } .maroon a:hover{ color:#900; }
+.red, .red a { color:#f00; } .red a:hover{ color:#c00; }
+.red2, .red2 a{ color:#fb746c; } .red2 a:hover{ color:#c00; }
+
+.pink, .pink a{ color:#fb746c; } .pink a:hover{ color:#c00; }
+
+.green, .green a{ color:#4c8000; } .green a:hover{ color:#09341a; }
+.white, .white a{ color:#fff; } .white a:hover{ color:#9ff7ff; }
+.yellow, .yellow a{ color:#ff0; } .yellow a{ color:#ff9; }
+
+/***** ALIGNMENT STYLES *****/
+.al { text-align:left; }
+.ar { text-align:right; }
+.ac { text-align:center; }
+.aj { text-align:justify; }
+.vat { vertical-align:top; }
+.vam { vertical-align:middle; }
+.vab { vertical-align:bottom; }
+.fl { float:left; display:inline; }
+.fr { float:right; display:inline; }
+.fo { float:left; width:100%; display:inline; }
+.flwm { float:left; margin:0 10px 5px 0; display:inline; }
+.frwm { float:right; margin:0 0 5px 10px; display:inline; }
+.zero { width: 0px; height: 0px; line-height: 0px; margin: 0px; padding: 0px; font-size: 0px; }
+.cb { clear:both; display:block; visibility:hidden; height:auto; line-height:0; content:'.' }
+.cl { clear:left; }
+.cr { clear:right; }
+
+/***** ACCESSORIES STYLES *****/
+.alpha50 { opacity:0.5; filter:alpha(opacity=50); }
+.alpha75 { opacity:.75; filter:alpha(opacity=75); }
+.b { font-weight:bold; }
+.i { font-style:italic; }
+.u { text-decoration:underline; }
+.uu a{ text-decoration:underline; }
+.uu a:hover{ text-decoration:none; }
+.uo a{ text-decoration:none; }
+.uo a:hover{ text-decoration:underline; }
+.n { font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; }
+.bcs { border-collapse:separate; }
+.nw { white-space:nowrap; }
+.ww { word-wrap:break-word; word-break:break-all; word-break/* */:normal; }
+.ttc { text-transform:capitalize; }
+.ttl { text-transform:lowercase; }
+.ttu { text-transform:uppercase; }
+.fvsc { font-variant:small-caps; }
+.block { display:block; margin:0 auto; }
+.inline { display:inline; }
+.none { display:none; }
+.absolute { position:absolute; }
+.relative { position:relative; }
+.pointer { cursor:pointer; }
+
+.m0px { margin:0; }
+.m1px { margin:1px; }
+.m1px2px { margin:1px 2px; }
+.m1px5px { margin:1px 5px; }
+.m2px { margin:2px; }
+.m2px5px { margin:2px 5px; }
+.m2px10px { margin:2px 10px; }
+.m5px { margin:5px; }
+.m5px10px { margin:5px 10px; }
+.m5px15px { margin:5px 15px; }
+.m10px { margin:10px; }
+.m15px { margin:15px; }
+.mb1px { margin-bottom:1px; }
+.mb2px { margin-bottom:2px; }
+.mb5px { margin-bottom:5px; }
+.mb10px { margin-bottom:10px; }
+.mb8px { margin-bottom:7px; }
+.mb15px { margin-bottom:15px; }
+.mb20px { margin-bottom:20px; }
+.mb25px { margin-bottom:25px; }
+.mb30px { margin-bottom:30px; }
+.ml5px { margin-left:5px; }
+.ml10px { margin-left:10px; }
+.ml15px { margin-left:15px; }
+.ml14px { margin-left:14px; }
+.ml20px { margin-left:20px; }
+.ml25px { margin-left:25px; }
+.ml35px { margin-left:35px; }
+.ml100 { margin-left:85px; }
+
+.p0px { padding:0; }
+.p1px { padding:1px; }
+.p1px2px { padding:1px 2px; }
+.p1px5px { padding:1px 5px; }
+.p2px { padding:2px; }
+.p2px5px { padding:2px 5px; }
+.p2px10px { padding:2px 10px; }
+.p3px0px { padding:3px 0; }
+.p5px { padding:5px; }
+.p5px10px { padding:5px 10px; }
+.p10px5px { padding:10px 5px; }
+.p5px15px { padding:5px 15px; }
+.p5px25px { padding:0 17px; }
+.p10px { padding:10px; }
+.p18px { padding:16px 14px 15px; }
+.p20px { padding:20px; }
+.p10px15px { padding:10px 15px; }
+.p10px20px { padding:10px 20px; }
+.p15px { padding:15px; }
+.pl5px { padding-left:5px; }
+.pl7px { padding-left:7px; }
+.pl12px { padding-left:12px; }
+.pl10px { padding-left:10px; }
+.pl15px { padding-left:15px; }
+.pl20px { padding-left:20px; }
+.pl25px { padding-left:25px; }
+.pl100px { padding-left:100px; }
+
+/********** OTHER STYLES **********/
+.w20 { width:20%; }
+.w25 { width:25%; }
+.w24 { width:24%; }
+.w30 { width:30%; }
+.w33 { width:33%; }
+.w38 { width:38%; }
+.w48 { width:48%; }
+.w49 { width:49%; }
+.w50 { width:50%; }
+.w61 { width:61%; }
+.w66 { width:66%; }
+.w70 { width:69%; }
+.w75 { width:73%; }
+.w98 { width:98%; }
+.w100 { width:100%; }
+
+.bdr { border:1px solid #ccc; }
+.bdrT { border-top:1px solid #ccc; }
+.bdrR { border-right:1px solid #ccc; }
+.bdrB { border-bottom:1px solid #ccc; }
+.bdrL { border-left:1px solid #ccc; }
+.bdrdBd {border-bottom:1px dotted #80afd9; }
+.bdrWhite, .bdrWhite td, .bdrWhite th { border:1px solid #fff; }
+.bdrAll, .bdrAll td, .bdrAll th  { border:1px solid #ccc; }
+.bdrAllNN, .bdrAllNN td, .bdrAllNN th  { border:2px solid #f8f8f8; }
+
+.bdrAll2, .bdrAll2 td, .bdrAll2 th  { border:1px solid #f1f1f1; }
+.bdrAllCols { border:1px solid #e5e5e5; }
+.bdrAllCols td, .bdrAllCols th  { border:1px solid #e5e5e5; border-width:0 1px; }
+.bdrAllRows { border:1px solid #e5e5e5; }
+.bdrAllRows td, .bdrAllRows th  { border:1px solid #e5e5e5; border-width:1px 0; }
+.bdrN, .bdrN td, .bdrN th { border:0; }
+.bdrBd { border-bottom:1px dashed #ccc; }
+.formHead { background:#be592a; color:#fff; padding:3px 5px; }
+.star { color:#db1111; }
+
+/********/
+
+.bgWhite { background:#fff; }
+.bgYellow { background:#f69b0e; }
+.bgPink { background:#ef7575; }
+.bg1 { background:#fff1f1; }
+.bg2 { background:#f8fdfa; }
+.bg3 { background:#fff7f7; }
+.bg4 { background:#fff8f8; }
+.bg5 { background:#fddbdb; }
+.bg6 { background:#fafafa; }
+.bg7 { background:#fff4f4; }
+.bg8 { background:#fffefe; }
+.grayLgt { background:#f3f3f3; }
+
+.bdrlr { border:1px solid #d63d48; border-width:0 1px; }
+
+
+.navigation{background:url(http://static.matrimonialsindia.com/images-mi/mf_g1.gif) repeat-x top;font-weight:bold;}
+.navigation ul{margin:0;padding:0;list-style:none;}
+.navigation li{margin-bottom:0;position:relative;}
+.navigation > ul > li{float:left;}
+.navigation li a{display:block;;}
+.navigation > ul > li > a{padding:6px 30px;border-right:1px solid #d5a1a1;color:#633;}
+.navigation > ul > li:last-child > a:first-child{border-right:0;}
+
+.navigation ul ul{position:absolute;display:none;font-weight:normal;line-height:1.2em;background:#e1302f;color:#fff;padding-bottom:15px;border:1px solid #e1302f;min-width:170px}
+.navigation ul ul a{padding:5px 10px;color:#fff;border-bottom:1px solid #ed8382;}
+.navigation ul ul a:hover{background:#fff;color:#000;}
+
+.navigation .selected{background:#e1302f;color:#fff;}
+.navigation .over{background:#fff;color:#000;border:1px solid #e1302f;border-width:0 1px;}
+
+
+/**************/
+.tlink_bg {
+	background:url(http://static.matrimonialsindia.com/images-mi/tlink_bg.gif) repeat-x;
+	height:21px;
+}
+.pdtl {
+	padding:2px 8px;
+}
+.pdtl a{color:#fff;text-decoration:none;}
+.pdtl a:hover{color:#fff95a;text-decoration:none;}
+.tl_bdrBg {
+	background:url(http://static.matrimonialsindia.com/images-mi/tl_bdrBg.gif) repeat-x bottom;
+	border-top:2px solid #d8588e;
+}
+.hdBg {
+	background:url(http://static.matrimonialsindia.com/images-mi/headerNew.jpg) no-repeat center;
+	height:257px;
+	border-bottom:1px solid #d7297b;
+}
+.cName {
+	margin:5px 0 0 8px;
+}
+
+/********/
+.frBg {
+	background:url(http://static.matrimonialsindia.com/images-mi/frBg.gif) repeat-x;
+}
+.frTxt {
+	padding:4px 90px 2px 5px;
+}
+.frlnk {
+	background:#f8fdfa;
+	border:1px solid #b8d4c3;
+	border-width:0 1px;
+	margin:0 2px 0 15px;
+	padding:0 0 5px;
+}
+.b1 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b1.gif) no-repeat 10px 7px;
+	padding:0 3px 0 25px;
+}
+.b1 a{color:#000;text-decoration:none}
+.b1 a:hover{color:#009812;text-decoration:none}
+.bbb {
+	border-bottom:1px dotted #000;
+	margin:0 3px 4px 26px;
+}
+.bbb3 {
+	border-bottom:1px dotted #ccc;
+	margin:0 3px 1px 20px;
+}
+.bbb3a {
+	border-bottom:1px dotted #000;
+	margin:0 3px 1px 20px;
+}
+.fr_bBg {
+	background:url(http://static.matrimonialsindia.com/images-mi/fr_bBg.gif) repeat-x;
+}
+.gr_bPd {
+	padding:0 3px 0 15px;	
+}
+.sf_partnerBg1 {
+	background:url(http://static.matrimonialsindia.com/images-mi/sf_partnerBg1.gif) repeat-x;
+}
+.sf_partnerBg2 {
+	background:url(http://static.matrimonialsindia.com/images-mi/sf_partnerBg2.gif) repeat-x bottom;
+}
+/***ccT***/
+.bg1tb {
+	background:url(http://static.matrimonialsindia.com/images-mi/bg1.gif) repeat-x top;
+	padding:10px 0 0;
+}
+.g2 {
+	background:#ffdee4 url(http://static.matrimonialsindia.com/images-mi/bg2.gif) repeat-y;
+	border-bottom:2px solid #e8f1ed;
+}
+.pd_logo {
+	background:url(http://static.matrimonialsindia.com/images-mi/pd_logo.gif) no-repeat 2px 15px;
+	padding:10px 0 0 30px;
+}
+.b8 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b8.gif) no-repeat 10px 5px;
+	padding:0 0 0 30px;
+}
+.bbb2 {
+	border-bottom:1px dotted #000;
+	margin:0 10px 3px 30px;
+}
+.bbb2_n {
+	border-bottom:1px dashed #ccc;
+	margin:0 10px 8px 30px;
+}
+.getRs_bg {
+	background:#fff url(http://static.matrimonialsindia.com/images-mi/getRs_bg.gif) no-repeat left;
+}
+.loginHere {
+	background:#69b98a url(http://static.matrimonialsindia.com/images-mi/loginHere.gif) no-repeat left;
+}
+.sucsessBg {
+	background:#fafafa url(http://static.matrimonialsindia.com/images-mi/sucsessBg.gif) no-repeat left bottom;
+}
+/***cc***/
+.b2 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b2.gif) no-repeat 0px 2px;
+	padding:0 0 0 20px;
+}
+.b3 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b3.gif) no-repeat 5px 7px;
+	padding:0 0 0 20px;
+}
+.b4 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b4.gif) no-repeat right bottom;
+	border-bottom:1px solid #b2016b;
+}
+/***cc2***/
+.astroBg {
+	background:#fff0f7 url(http://static.matrimonialsindia.com/images-mi/astroBg.gif) repeat-x center center;
+	border:1px solid #fdddf0;
+	border-width:1px 0;
+}
+.astro_logo {
+	background:url(http://static.matrimonialsindia.com/images-mi/astro_logo.gif) no-repeat 10px;
+	padding:8px 5px 5px 100px;
+}
+.mbrBdr {
+	border-bottom:1px dotted #000;
+	height:1px;
+	margin:8px 0;
+}
+/**cc3***/
+.wd_bg {
+	background:#eee url(http://static.matrimonialsindia.com/images-mi/wd_bg.gif) repeat-x center center;
+	border-left:8px solid #f69b0e;
+	border-right:8px solid #e51273;
+}
+.wd_bandhan {
+	background:url(http://static.matrimonialsindia.com/images-mi/wd_bandhan.gif) no-repeat left top;
+	padding:0 0 0 50px;
+}
+.wd_hand {
+	background:url(http://static.matrimonialsindia.com/images-mi/wd_hand.gif) no-repeat right bottom;
+}
+.b6 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b6.gif) no-repeat 0px 5px;
+	padding:0 0 0 10px;
+}
+/***blink**/
+.blink {
+	border:1px solid #b4537c;
+	border-width:1px 0;
+}
+.b7 {
+	background:url(http://static.matrimonialsindia.com/images-mi/b7.gif) no-repeat 6px 5px;
+	padding:0 4px 0 20px;
+}
+.liveHelp {
+	background:url(http://static.matrimonialsindia.com/images-mi/liveHelp.jpg) no-repeat left top;
+	padding:0 0 0 36px;
+}
+.bdrRgtW {
+	border-right:1px solid #fcdfec;
+}
+
+
+/******new index****/
+
+/********/
+
+
+.fix { background:#fff url(http://static.matrimonialsindia.com/images-mi/ng1.gif) repeat-x top; padding:3px 10px 10px; width:980px; margin:0 auto; border:1px solid #eee; border-width:0 1px; }
+.free { background:#fff url(http://static.matrimonialsindia.com/images-mi/ng1.gif) repeat-x top; padding:3px 10px 10px; border:1px solid #eee; border-width:0 1px; }
+.icons {}
+.icons img { margin:0 2px 0 15px; }
+.ncallus_bg { background:url(http://static.matrimonialsindia.com/images-mi/ncallus_bg.gif) repeat-x; }
+.liveHel { padding:8px 10px; }
+.ncast_bg { background:url(http://static.matrimonialsindia.com/images-mi/ncast_bg.gif) repeat-x; }
+.ncast_bg .l { padding:12px 10px 0; color:#fff; }
+.ncast_bg .l a{ color:#fff; padding:5px 7px; }
+.ncast_bg .l a:hover{ color:#fff; background:#407f59; }
+
+.ncast_bg .more { padding:12px 10px 0; height:27px; color:#fff; background:url(http://static.matrimonialsindia.com/images-mi/nmore_gg.gif) repeat-x; border-left:1px solid #82d703; }
+.ncast_bg .more a{ color:#fff; }
+.ncast_bg .more a:hover{ color:#ff0; }
+.ng2 { background:#8d311f url(http://static.matrimonialsindia.com/images-mi/ng22.gif) repeat-x bottom; }
+.nregister_bg {  }
+.nregister_bg .tx { padding:26px 8px 15px 0; }
+.nlogin_bg { background:url(http://static.matrimonialsindia.com/images-mi/nlogin_bg.gif) repeat-x; }
+.nlogin_icon2 { background:url(http://static.matrimonialsindia.com/images-mi/nlogin_icon2.gif) no-repeat 2px 9px; padding:15px 10px 15px 35px; border-right:1px solid #e4ece1; }
+.nlogin_in { padding:15px 10px; }
+.userN { padding:8px 2px 0 10px; }
+.npremiumD_bg { background:url(http://static.matrimonialsindia.com/images-mi/npremiumD_bg.gif) repeat-x; }
+.npremium_bd { border:1px solid #eee; border-width:0 1px; background:#fff url(http://static.matrimonialsindia.com/images-mi/nsearchBy_g1.gif) repeat-x bottom; }
+.npremium_bd2 { border:1px solid #a7cb9c; border-width:0 1px; background:#fff url(http://static.matrimonialsindia.com/images-mi/pm_g1.gif) repeat-x bottom; }
+.npremium_bd3 { border:1px solid #a7cb9c; border-width:0 1px; background:url(http://static.matrimonialsindia.com/images-mi/pm_g1.gif) repeat-x top; }
+.npremiumD_bbg { background:url(http://static.matrimonialsindia.com/images-mi/npremiumD_bbg.gif) repeat-x; }
+.nsearchBy_bg { background:url(http://static.matrimonialsindia.com/images-mi/nsearchBy_bg.gif) repeat-x; }
+.nvr_bdr { background:url(http://static.matrimonialsindia.com/images-mi/nvr.gif) repeat-y right; padding:7px 6px; }
+.nvr_bdr2 { padding:7px 6px; }
+.nsrch_ct_bg { background:url(http://static.matrimonialsindia.com/images-mi/nsrch_ct_bg.gif) repeat-x; }
+.nsrch_tx { padding:7px 4px 0 10px; }
+.nsearch_bg { background:url(http://static.matrimonialsindia.com/images-mi/nsearch_bg.gif) repeat-x; }
+.qsearch_bd { border:1px solid #a7cb9c; border-width:0 1px; }
+.nsearch_bbg { background:url(http://static.matrimonialsindia.com/images-mi/nsearch_bbg.gif) repeat-x; }
+.nhr { background:url(http://static.matrimonialsindia.com/images-mi/nhr.gif) repeat-x; }
+.nvr { background:url(http://static.matrimonialsindia.com/images-mi/nvr.gif) repeat-y; }
+.nsty_bg { background:url(http://static.matrimonialsindia.com/images-mi/nsty_bg.gif) repeat-x; }
+.nsucessBg { background:#c34b33; }
+.nsucessBg2 { background:#e4ece1; }
+.nsucessBg3 { border:1px solid #000; }
+.ntime_bg { background:url(http://static.matrimonialsindia.com/images-mi/ntime_bg.gif) repeat-x; }
+.ntime_bbg { background:url(http://static.matrimonialsindia.com/images-mi/ntime_bbg.gif) repeat-x; }
+.ntime_g1 { background:url(http://static.matrimonialsindia.com/images-mi/ntime_g1.gif) repeat-x; border:1px solid #e4ece1; border-width:0 1px; }
+.nbdrtB { border:1px solid #a7cb9c; border-width:1px 0; }
+.nportal_bg { background:url(http://static.matrimonialsindia.com/images-mi/nportal_bg.gif) repeat-x; }
+.nportal_bbg { background:url(http://static.matrimonialsindia.com/images-mi/nportal_bbg.gif) repeat-x; }
+.nportal_g1 { background:#fff url(http://static.matrimonialsindia.com/images-mi/nportal_g1.gif) repeat-x bottom; height:28px; padding:10px 11px 0; border:1px solid #e3efdf; border-width:0 1px; }
+.dspy_bg { background:url(http://static.matrimonialsindia.com/images-mi/dspy_bg.gif) repeat-x; height:27px; padding:3px 6px 0; }
+
+/*********/
+.pm_bg { background:url(http://static.matrimonialsindia.com/images-mi/pm_bg.gif) repeat-x; }
+.pm_g1 { background:#fff url(http://static.matrimonialsindia.com/images-mi/pm_g1.gif) repeat-x bottom; border:1px solid #a7cb9c; border-width:0 1px; }
+.benifits_p { padding-top:15px; }
+.pm_bbg { background:url(http://static.matrimonialsindia.com/images-mi/pm_bbg.gif) repeat-x; }
+.bdrP { border:1px solid #f1bcbc; }
+
+.contact {
+	background:url(http://static.matrimonialsindia.com/images-mi/contact.gif) no-repeat 20px bottom;
+	padding:5px 5px 5px 20px;
+	border:1px solid #f1f1f1;
+}
+
+/*****31 dec 2009 changies from sachin**********/
+
+.nblue, .nblue a{ color:#0099cc; } .nblue a:hover{ color:#0b7598; }
+
+.best { color:#666; font-size:13px; }
+.quickSrh { font-size:18px; color:#65a900; background:#fff; padding:0 10px; }
+.nsearch2_bg { background:url(http://static.matrimonialsindia.com/images-mi/nsearch2Bg.gif) repeat-x; }
+.qsearch_bd2 { border:1px solid #a7cb9c; border-width:0 1px 1px; }
+.nRegist_bg { height:20px; padding:10px 10px 0; background:url(http://static.matrimonialsindia.com/images-mi/nRegist_bg.gif) repeat-x; font-size:16px; }
+.nRegist2_bg { height:23px; padding:7px 10px 0; background:url(http://static.matrimonialsindia.com/images-mi/nRegist2_bg.gif) repeat-x; font-size:15px; }
+.border_btm { background:#eee; }
+.nloginIcn { padding:18px 15px 18px 5px; }
+.nlogin_icon3 { border-right:1px solid #e4ece1; padding:5px 15px 10px 0; }
+.npremium { font-size:17px; color:#557624; background:#fff; padding:0 10px 2px; }
+.benifits_arrow2 { padding:18px 12px 14px; font-size:18px; background:url(http://static.matrimonialsindia.com/images-mi/benifits_arrow2.gif) no-repeat right bottom; line-height:1.4em; }
+.nsty_bbg { background:url(http://static.matrimonialsindia.com/images-mi/nsty_bbg.gif) repeat-x; }
+.nsearch_b1 { background:url(http://static.matrimonialsindia.com/images-mi/nsearch_b1.gif) no-repeat 0px 4px; }
+.nsearchBy_bbg { background:url(http://static.matrimonialsindia.com/images-mi/nsearchBy_bbg.gif) repeat-x; }
+.nsucess2 { color:#666; background:#fff; padding:0 10px; }
+.nfoot_g1 { background:#fff url(http://static.matrimonialsindia.com/images-mi/nfoot_g1.gif) repeat-x top; border-top:5px solid #65a900; }
+.nprofile_b1 { background:url(http://static.matrimonialsindia.com/images-mi/nprofile_b1.gif) no-repeat 0px 4px; }
+.nprofile_b2 { background:url(http://static.matrimonialsindia.com/images-mi/nprofile_b2.gif) no-repeat 0px 4px; }
+.footer_links a { padding:0 1px; }
+
+/****/
+.qs_bg { background:url(http://static.matrimonialsindia.com/images-mi/qs_bg.gif) repeat-x; }
+.qs_bbg { background:url(http://static.matrimonialsindia.com/images-mi/qs_bbg.gif) repeat-x; }
+.qs_g1 { background:#f6fcda url(http://static.matrimonialsindia.com/images/qs_g1.gif) no-repeat bottom; border:1px solid #a4c11c; border-width:0 1px; }
+.bg_srh { background:#f7fffa; border:1px solid #37bc59; }
+
+/***/
+.g3 { background:#fff url(http://static.matrimonialsindia.com/images/g3.gif) repeat-x bottom; border:1px solid #e9e9df; }
+
+.nregist_g1 { background:#f1ffdc url(http://static.matrimonialsindia.com/images-mi/nregist_g1.gif) repeat-x bottom; border:1px solid #b5e077; border-width:0 1px; }
+.nregist_g1 .p10px { padding:13px 10px 8px; }
+.nregist3_bg { background:url(http://static.matrimonialsindia.com/images-mi/nregist3_bg.gif) repeat-x; }
+.ml52 { margin-left:55px; }
+.bdrr_white { border-right:1px solid #fff; }
+
+/***********Validation**************/
+
+#msg {
+	display:none; 
+	position:absolute; 
+	z-index:200; 
+	background:url(http://static.matrimonialsindia.com/images/msg_arrow.gif) left center no-repeat; 
+	padding-left:7px;
+}
+
+#msgcontent {
+	display:block; 
+	background:#fee; 
+	border:2px solid #924949; 
+	border-left:none; 
+	padding:5px; 
+	min-width:150px; 
+	max-width:250px;
+}
+
+#wrapper {
+	width:300px; 
+	margin:50px auto;
+}
+/***********Validation**************/
+
+.absolute { position:absolute; }
+.relative { position:relative; }
+
+.color1, .color1 a{ color:#728a4d; } .color1 a:hover{ color:#3a5514; }
+.color3, .color3 a{ color:#225100; } .color3 a:hover{ color:#111; }
+.color2, .color2 a { color:#fc7972; } .color2 a:hover{ color:#b83d36; }
+.color4, .color4 a{ color:#1945b3; } .color4 a:hover{ color:#001751; }
+
+.fs18 { font-size:18px; }
+.fs20 { font-size:20px; }
+.fs22 { font-size:22px; }
+
+.pb5px { padding-bottom:5px; }
+.mb8px { margin-bottom:8px; }
+
+/*********/
+.classified_n { border:1px solid #dee8d4; }
+.nclaasified_g1 { background:#fff url(http://static.matrimonialsindia.com/images-mi/nclaasified_g1.gif) repeat-x bottom; }
+.cl_green, .cl_green a{ color:#516800; } .cl_green a:hover{ color:#000; }
+.clfy_bdr { border:1px solid #b4c5a5; background:#fff; }
+.clfy_bg1 { background:#fffff8 url(http://static.matrimonialsindia.com/images-mi/g5.gif) repeat-x bottom;; }
+.nclaasified_g2 { background:#ebf9de; } /*******url(http://static.matrimonialsindia.com/images-mi/nclaasified_g2.gif) repeat-x bottom;******/
+
+.cl_green2, .cl_green2 a{ color:#2d3a00; }
+.cl_green2 a:hover{ color:#000; }
+.joinNow .input { background:#fff url(http://static.matrimonialsindia.com/images-mi/jn_bg2.gif) repeat-x bottom; }
+/*****/
+
+.bdrR_dot { border-right:1px dashed #ccc; }
+/*****/
+.nqs_g1 { background:#fff url(http://static.matrimonialsindia.com/images-mi/nqs_g1.gif) repeat-x bottom; border:1px solid #a7cb9c; border-width:0 1px; }
+.nsearch2_bbg { background:url(http://static.matrimonialsindia.com/images-mi/nsearch2_bbg.gif) repeat-x; }
+.nloginhp_bg { background:url(http://static.matrimonialsindia.com/images-mi/nloginhp_bg.gif) repeat-x;}
+.headimbg { background:url(http://static.matrimonialsindia.com/images-mi/headimbg.gif) repeat-x bottom; }
+
+/***vanity hm start 27-05-10********/
+
+.ffmicro { font-family:"Microsoft Sans Serif", Arial, Helvetica, sans-serif; }
+
+.vnty_search_g { background:#fefffb url(http://static.matrimonialsindia.com/images-mi/vnty_search_g.gif) repeat-x bottom; border:1px solid #bcd09f; border-width:0 1px; width:99%; margin:0 auto; }
+.vnty_srch_bg { background:url(http://static.matrimonialsindia.com/images-mi/vnty_srch_bg.gif) repeat-x; width:99%; margin:0 auto; }
+.vnty_tab_bg { background:url(http://static.matrimonialsindia.com/images-mi/vnty_tab_bg.gif) repeat-x bottom; }
+
+.vnty_tab_bg .on { border:1px solid #bcd09f; border-width:1px 1px 0; line-height:17px; padding:5px 15px; background:#fff; }
+.vnty_tab_bg .on, .vnty_tab_bg .on a{ color:#4f8401; }
+.vnty_tab_bg .on a:hover{ color:#2f4f00; }
+
+.vnty_tab_bg .off { border:1px solid #bcd09f; background:#edf7e0; padding:5px 15px; }
+.vnty_tab_bg .off, .vnty_tab_bg .off a{ color:#508500; }
+.vnty_tab_bg .off a:hover{ color:#44690c; }
+
+.vnty_g1 { background:#fcfeed url(http://static.matrimonialsindia.com/images-mi/vnty_g1.gif) repeat-x top; border:1px solid #bcd09f; border-width:0 1px 1px; padding:8px 8px 0; }
+.vnty_g1a { background:#fcfeed url(http://static.matrimonialsindia.com/images-mi/vnty_g1.gif) repeat-x top; border:1px solid #bcd09f; padding:8px 8px 0; }
+.vnty_b1 { background:url(http://static.matrimonialsindia.com/images-mi/vnty_b1.gif) no-repeat 0px 7px; }
+.vnty_rc { background:#fafaf9; }
+.vnty_bg1 { background:#f4f2e8; }
+.vnty_pDisplay_bg { background:url(http://static.matrimonialsindia.com/images-mi/vnty_pDisplay_bg.gif) repeat-x; }
+.vnty_bdr { border:3px solid #fafaf9; }
+.p8px { padding:8px; }
+.vnty_br_bg { background:url(http://static.matrimonialsindia.com/images-mi/vnty_br_bg.gif) repeat-x; height:26px; padding:8px 10px 0; color:#fff; }
+.vnty_gr_bg { background:url(http://static.matrimonialsindia.com/images-mi/vnty_gr_bg.gif) repeat-x; height:26px; padding:8px 10px 0;  }
+
+.w50 { width:50%; }
+.dib { display:inline-block; }
+.c5px{background:#f9f9f9; border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.c10px{border:1px solid #8dae71; background:#d0e7bc; border-radius:10px;-khtml-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+.xxlarge { font-size:1.4em; }
+

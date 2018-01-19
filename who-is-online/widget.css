@@ -1,0 +1,187 @@
+.onlineWidget,.channel{	
+
+	/* Styling the widget and the sliding panel at once */	
+
+	background-color:#5CB85C;
+
+	border:2px solid #FFFFFF;
+
+	height:35px;
+
+	padding:4px 8px;
+
+	position:relative;
+
+	width:200px;	
+
+	cursor:pointer;	
+
+	/* CSS3 rules for rounded corners, box and text shadows: */	
+
+	-moz-border-radius:6px;
+
+	-webkit-border-radius:6px;
+
+	border-radius:6px;	
+
+	-moz-box-shadow:0 0 3px #FFFFFF;
+
+	-webkit-box-shadow:0 0 3px #FFFFFF;
+
+	box-shadow:0 0 3px #FFFFFF;	
+
+	
+
+}
+
+.onlineWidget:hover{background-color:#fcfcfc;}
+
+.onlineWidget:hover .arrow{
+
+    /* Changing the background image for the green arrow on hover: */
+
+	background-position:bottom center;
+
+}
+
+.count{
+
+	/* The total number of people online div */	
+
+	color:red;
+
+	float:left;
+
+	font-size:26px;
+
+	font-weight:bold;
+
+	margin-top:-3px;
+
+	text-align:center;
+
+	width:30px;
+
+}
+
+.label{
+
+	/* The online label */	
+
+	float:left;
+
+	font-size:10px;
+
+	padding:7px 0 0 7px;
+
+	text-transform:uppercase;
+
+	color:black;
+
+}
+
+.arrow{
+
+	/* The green arrow on the right */	
+
+	background:url(img/arrow.png) no-repeat top center;
+
+	position:absolute;
+
+	right:6px;	
+
+	width:25px;
+
+	height:25px;
+
+}
+
+
+
+.channel{
+
+	/* The slideout panel */	
+
+	position:absolute;
+
+	cursor:default;	
+
+	bottom:50px;
+
+	left:0;
+
+	height:auto;
+
+	display:none;
+
+	margin:-2px;
+
+	z-index:1000;
+
+}
+
+
+
+.preloader{
+
+	/* The rotating gif preloader image */
+
+	display:block;
+
+	margin:10px auto;
+
+}
+
+.geoRow{
+
+	/* The div that contains each country */	
+
+	height:28px;
+
+	overflow:hidden;
+
+	padding:2px 0;
+
+	color:black;
+
+}
+
+.flag{float:left;margin:0 4px;}
+
+.country, .people{float:left;font-size:10px;padding:2px;}
+
+.country{width:85px;overflow:hidden;}
+
+.people{font-weight:bold;}
+
+.onlineWidget{
+margin-top: -35px;
+float: right;
+right: 0;
+left: 77%;
+position: fixed;
+top: 100%;}
+
+.tutorial-check{margin:0 auto;display:block;}
+
+/*a:visited {color:#5CB85C;text-decoration:none;outline:none;}*/
+
+.clear{clear:both;}
+
+p.tutInfo{/* The tutorial info on the bottom of the page */
+
+	padding:10px 0;
+
+	text-align:center;
+
+	position:fixed;
+
+	bottom:0px;
+
+	background-color:#011D2E;
+
+	border-top:1px solid #011d2e;
+
+	width:100%;
+
+}

@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'museo300';
+    src: url('../font/museo_300_regular-webfont.eot');
+    src: url('../font/museo_300_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museo_300_regular-webfont.woff') format('woff'),
+         url('../font/museo_300_regular-webfont.ttf') format('truetype'),
+         url('../font/museo_300_regular-webfont.svg#museo300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{ font-size:14px; color:#000;}
+
+*{ margin:0; padding:0;}
+.dashboard-section{ padding:10px 15px 15px 15px;}
+.title{  font-size:26px; font-weight:bold; padding-bottom:10px; line-height:28px; font-family: 'museo300';}
+.sub-title{ font-size:20px; font-weight:bold; line-height:22px; padding:15px 0 5px 0; font-family: 'museo300';}
+.number-text{ color:#f53f23; font-weight:bold;}
+.notification-section{ background:#fff;}
+.notification-list{ margin:0; padding:0; list-style:none; padding:10px 20px; margin-bottom:10px;}
+.notification-list li{ border-bottom:1px dashed #ccc; line-height:20px; background:url(../img/dot-img.png) no-repeat left center; padding:10px 0 10px 15px; }
+.notification-list li .label{ float:left; padding:0;  }
+.notification-list li.last{ background:none; border-bottom:none; padding:10px 10px 0 10px;}
+.notification-list li a.view-more{ text-decoration:underline; font-weight:bold;color:#666;}
+.notification-list li a.view-more:hover{ text-decoration:none; }
+.close-btn{ float:right; background:url(../img/bgi/close_black.png) no-repeat; width:16px; height:16px; display:block;}
+
+.users-section-outer{background:#fff; padding:10px; margin-bottom:20px;}
+.users-section{ width:230px; margin-right:63px;  }
+.users-section-list{ margin:0; padding:0; list-style:none; padding:5px !important; background:#fff; width:220px; margin-right:20px;   border:1px solid #999; }
+.users-section-list li{ line-height:30px;}
+.header-title{ border-bottom:1px solid #CCC;  }
+.users-section li .header-title .title1{ float:left;font-size:14px; line-height:16px; padding-bottom:5px; font-weight:bold; }
+
+.property-section-outer{ margin-bottom:10px;}
+.property-section{ background:#fff;  width:450px;min-height:285px;}
+.property-listing{ width:100%; padding:0;}
+.property-listing li{ border-bottom:1px dashed #ccc; float:left; width:95%; padding:20px 10px;}
+.property-listing li.last{ border-bottom:none;}
+.property-listing .first .first-li{    width:200px; background:url(../img/dot-img.png) no-repeat left center; padding-left:10px;  }
+.property-listing .first .first-li1{ background:none; padding:0;}
+.property-listing .first .second-li{  width:75px; text-align:center;    }
+.property-listing .first .third-li{   float:right; width:92px; text-align:center;  }
+.property-title{ font-size:20px; font-weight:bold; font-family: 'museo300';}
+.property-listing .first p{ float:left; padding:0;}
+
+.transaction-outer {}
+.transaction-section{ background:#fff; margin-bottom:20px;}
+.month-section{ padding:10px 0;}
+.transaction-list{ margin:0; padding:0; list-style:none; width:400px;}
+.transaction-list li{  padding:20px 10px; border-bottom:1px dashed #ccc; }
+.transaction-list li.last{ border-bottom:none;}
+.city{ display:block; float:left; width:200px;background:url(../img/dot-img.png) no-repeat left center; padding-left:10px;}
+.price{ display:block; width:170px; float:right;}
+
+
+
+/*------- custome scrollbar ----------------*/
+#scrollbar2 {width: 800px;margin: 20px 0 10px;}
+
+#scrollbar2 .viewport { width:95%; height:85px; overflow: hidden; position: relative; }
+#scrollbar2 .viewport1{ height:110px;}
+ 
+#scrollbar2 .overview { list-style: none; position: absolute; left: 0; top: 0; width:100%; }
+#scrollbar2 .thumb .end,
+#scrollbar2 .thumb { background:#03f;}
+#scrollbar2 .scrollbar { position: relative;
+margin: 0 0 5px;
+clear: both;
+height: 15px; }
+#scrollbar2 .track {background:#900; width: 100%;height: 15px; position: relative; }
+#scrollbar2 .thumb {  position: absolute; height: 25px;
+cursor: pointer;
+overflow: hidden;
+position: absolute;
+left: 0;
+bottom: 15px;}
+#scrollbar2 .thumb .end { overflow: hidden;
+height: 25px;
+width: 5px; }
+#scrollbar2 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

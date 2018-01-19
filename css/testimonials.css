@@ -1,0 +1,25 @@
+#thinColumn{float:left;width:22%; }
+#wideColumn{float:right;width:75%;border-left:1px solid #e4e4e4; padding-left:15px;}
+
+.h1{color:#360;}
+.h1 h1{font-size:25px;font-weight:normal;}
+.flash, #thinColumn .l, .testimonial, .leftString, .rightString{background:url(http://static.matrimonialsindia.com/images/testimonials10.png) repeat-x 0 100%;}
+
+#thinColumn .l{border:1px solid #e4e4e4; margin:0 0 5px; background-position:0 -395px;}
+.b1{height:4px;border:1px solid #6cb400;vertical-align:middle;margin:0 5px 0 0; background:#fff;}
+
+.flash{background-position:0 0;border:1px solid #c7bb84;}
+.flash .wrapper{width:700px; height:90px; position:relative; overflow:hidden;}
+.flash .slider{width:7000px;position:absolute;}
+.flash ul, .flash li{margin:0;padding:0;}
+.flash li{float:left; width:700px;}
+.flash .total a {background:url(http://static.matrimonialsindia.com/images/testimonials10.png) repeat-x right -479px; display:inline-block; width:20px; text-align:center; line-height:20px;font-weight:bold;color:#fff;}
+.flash .total .on{background-position:0 -479px}
+
+.testimonial{border:1px solid #e6ecf2; background:url(http://static.matrimonialsindia.com/images/testimonial_bg.gif) repeat-x bottom;}
+.leftString{background-position:0 -445px; display:inline-block; width:25px; height:15px; vertical-align:top;}
+.rightString{background-position:right -445px; display:inline-block; width:25px; height:15px; vertical-align:top;}
+
+.paging{background:#fff;border:none;padding:1px 6px;}
+.paging a{background:#f8f8f8;border:1px solid #ccc; display:inline-block; padding:0 7px;}
+.paging .on, .paging a:hover{background:#93a972;color:#fff;border:1px solid #6c8940;}

@@ -1,0 +1,55 @@
+.successStoryGallery{width:700px; height:350px;} 
+.successStoryGallery > div:first-child{
+border:5px solid #666;border-color:rgba(0,0,0,.5);z-index:9;width:690px;top:0;left:0;height:340px;	
+-webkit-box-shadow:0 0 1px #fff inset;
+-moz-box-shadow:0 0 1px #fff inset;
+box-shadow:0 0 1px #fff inset;
+}  
+#slider {
+width:700px;height:350px;
+background:transparent url(http://static.matrimonialsindia.com/images/loading.gif) no-repeat 50% 50%;
+position:relative;
+margin:0 auto;
+}
+#slider img {
+position:absolute;
+border:none;
+visibility:hidden;}
+div.navBulletsWrapper  {
+top:330px;
+margin:0px auto;
+width:110px;
+background:none;
+position:relative;
+z-index:5;
+cursor:pointer;}
+div.navBulletsWrapper div {
+width:11px; height:11px;
+background:transparent url(http://static.matrimonialsindia.com/images/bullet.png) no-repeat 0 0;
+float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+margin-left:7px;
+_position:relative;}
+div.navBulletsWrapper div:first-child{margin-left:0px;}
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+.group1-Wrapper {
+position:absolute;
+z-index:20;
+top:100px;
+margin-left:350px;
+width:1px;}
+a.group1-Prev, a.group1-Next{
+width:52px;height:52px;
+background:transparent url(http://static.matrimonialsindia.com/images/bg_direction_nav.png); 
+display:block; 
+cursor:pointer;
+position:absolute;
+top:0;
+user-select: none;}
+a.group1-Prev{background-position:0 0; left:-362px; top:40px;}
+a.group1-Next {background-position:-54px 0px;left:312px; top:40px;}
+#slider {
+transform: translate3d(0,0,0);
+-ms-transform:translate3d(0,0,0);
+-moz-transform:translate3d(0,0,0);
+-o-transform:translate3d(0,0,0);}
+.mc-caption{display:none;}

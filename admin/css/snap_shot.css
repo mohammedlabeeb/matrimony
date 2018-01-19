@@ -1,0 +1,87 @@
+
+/*------ dialog-box -----------------------*/
+.dialog-box{ width:930px; height:580px;overflow:auto;}
+.dialog-box-first{ padding:10px;}
+.user-image{ display:block; float:left; margin-right:25px;}
+.user-descrption{ float:left; width:610px;}
+.user-title{ padding-bottom:5px; }
+.user-title span{ display:inline-block; float:left;}
+.user-name{ color:#00b5e5; font-size:30px; line-height:32px; margin-right:25px; font-weight:bold;}
+.user-approved{ vertical-align:bottom; text-transform:uppercase; font-weight:bold; font-size:14px; line-height:15px; color:#99a3a6;}
+.builder-title{ color:#333333; font-size:14px; vertical-align:bottom;}
+.user-deails{ margin:0; padding:0; list-style:none;}
+.user-deails li{ float:left; color:#666; font-size:14px; line-height:36px;  width:200px; }
+.user-label{ display:block; width:250px;}
+.user-deails li img{ vertical-align:middle; margin-right:5px; }
+.user-deails li .user-img{ vertical-align:top;}
+.user-deails li.first{ width:260px;}
+.user-deails li.second{ width:150px;}
+.user-deails li.third{ width:350px;}
+.print-detail{ float:right; position:relative; top:10px;}  
+.user-label{ display:inline-block; line-height:20px; width:226px;}
+
+.dialog-box-second .title{ background:url('../img/titles-bg.png') repeat-x; padding:2px; color:#fff; font-weight:bold; font-size:13px; line-height:20px;}
+.business-desc{ padding:10px;}
+.business-deail{ width:429px; float:left;}
+.business-title{ display:block; width:125px; float:left; color:#00b5e5; font-size:12px; font-weight:bold; text-align:right;}
+
+.business-data{ display:block; width:240px; float:left; color:#666; font-size:1.1em; padding-left:5px;}
+.list-section{background:url(../img/titles-bg.png) repeat-x; }
+.list-section span{ display:block; padding:10px; color:#fff; font-weight:bold; font-size:18px; line-height:20px;}
+.chart-list{ margin:0; padding:9px 60px 0 0; list-style:none;}
+.chart-list li{ float:left; }
+.chart-list li a{ padding:5px 10px; margin:5px 5px 0 0; display:block; font-size:14px; font-weight:bold;}
+.chart-list li.active a{ background:url(../img/tab-active-bg.png) repeat-x; color:#333; }
+.chart-list li a{ display:block;background:url(../img/tab-bg.png) repeat-x; color:#333;}
+.like-img{ display: block;background: url(../img/like-icon.png) no-repeat center 0px;height: 24px;position: relative;top: 5px;}
+.table-data1{ margin:10px;}
+.table-description{padding:10px;}
+.active-box { display:block;}
+.block-box{ display:none;}
+.chart-box{ }
+.list-tabs{ margin:0; padding:0; list-style:none;}
+.list-tabs li{ float:left; margin:0 5px 0 0 ;}
+.list-tabs li a{ display:block; padding:5px 10px; background:#CCC; }
+
+.list-tabs li a:hover,.list-tabs li.active a{ color:#fff; background:#333;}
+.list-tabs-in{ margin:0; padding:0; list-style:none;}
+.list-tabs-in li{ float:left; margin:0 5px 0 0 ;}
+.list-tabs-in li a{ display:block; padding:5px 10px; background:#CCC; }
+.list-tabs-in li a:hover,.list-tabs-in li.active a{ color:#fff; background:#333;}
+
+.list-tabs li a:hover,.list-tabs li.active a{ color:#fff; background:#333;}
+
+.listing-active{ display:block;}
+.listing-block{ display:none;}
+.property-list{ margin:0; padding:0; list-style:none; border:1px solid #AAA; }
+
+.border-bottom{ border-bottom:none;}
+.property-list li{ float:left; width:100px;  text-align:center; padding:10px;}
+.property-list li.first{ width:355px;}
+.property-list li.last{ width:130px;}
+
+.property-list-labels{margin:0; padding:0; list-style:none; border:1px solid #AAA; border-bottom:none; }
+.property-list-labels li{ float:left; width:100px; font-weight:bold;  text-align:center; padding:10px;color:#777}
+.property-list-labels li.first{ width:355px;}
+.property-list-labels li.last{ width:130px;}
+
+
+.expiry-date{display:block;line-height:22px;}
+.post-label{color:#555; font-style:normal;font-weight:bold;}
+.list-id{ display:inline-block; font-size:14px; float:left; width:70px; }
+.property-list li a{color:#1f56ad; font-size:12px; float:left; width:200px; font-weight:bold; } 
+.property-list li a:hover{ text-decoration:underline;}
+.response-link{ text-align:center !important; float:none !important;}
+.list-p{ padding:5px 5px; text-align:left; font-size:1.1em;color:#777;}
+.property-list-outer{ padding:10px;}
+.progress-bar{ display:block; }
+.progress{ background:#CCC; width:100px; height:15px; display:block; position:relative; border-radius:10px;overflow:hidden; left:20px;}
+.progress2{ background:#90c300; display:inline-block; height:15px; width:50%; position:absolute; left:0; top:0; border-radius: 10px 0  0 10px; }
+.percentage{ display:block; padding-top:5px;}
+.pagination{ margin:0; padding:0; list-style:none; float:right;}
+.pagination li{ margin-right:5px; float:left;}
+.pagination li a{ display:block; background:#ccc; border:1px solid #666; padding:3px 5px; }
+.pagination li a:hover{ background:#333; color:#fff;}
+
+
+.main-title{ font-size:20px; line-height:22px;}

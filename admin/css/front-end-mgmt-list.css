@@ -1,0 +1,31 @@
+            .prop-list{
+                margin:0; padding:0; list-style:none; 
+                padding:30px 20px;
+            }   
+            .prop-list li{
+                    float:left;
+                    width:165px;
+                    height:237px;
+                    margin:0 23px 30px 0;
+                    background:#FFF;
+                    padding: 10px;
+                    border: 3px solid #CCC;
+            }
+            
+            .prop-list li .prop-image{ 
+                border: 5px solid #EEEEEE;
+                max-height: 150px;
+                max-width: 150px;
+            }
+           
+            .prop-list li .prop-title{ 
+					display:block;
+                    color:#457BBA;
+                    font-weight: bold;
+            }
+            .prop-list li .prop-locality{ 
+                    color:#333;
+                    font-weight: normal;
+                    display: block;
+                    padding-top: 5px;
+            }

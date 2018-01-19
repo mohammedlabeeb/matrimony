@@ -1,0 +1,52 @@
+
+#star
+{
+font-size:14px;
+color:#FF0000;
+}
+
+.errormsg
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF0000;
+	font-weight:bold;
+}
+.catagery_link {
+	font-family:Lucida Sans, Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:28px;
+	color:#FFFFFF;
+	text-align:center;
+}
+.catagery_link a {
+	font-family:Lucida Sans, Arial;
+	font-size:13px;
+	font-weight:nomral;
+	text-decoration:none;
+	line-height:28px;
+	color:#FFFFFF;
+	text-align:center;
+}
+.catagery_link a:hover {
+	font-family:Lucida Sans, Arial;
+	font-size:13px;
+	font-weight:nomral;
+	text-decoration:none;
+	line-height:28px;
+	color:#DE2112;
+	text-align:center;
+}
+.text
+{
+font-size:12px;
+}
+.text2
+{
+font-size:12px;font-weight:bold;
+}
+.con_title
+{
+font-size:13px; font-weight:bold; padding-left:5px;}

@@ -1,0 +1,64 @@
+.vnty_br_bg{background:url(http://static.matrimonialsindia.com/images-mi/vnty_br_bg.gif) repeat-x;height:26px;padding:8px 10px 0; color:#fff;}
+.vnty_gr_bg{background:url(http://static.matrimonialsindia.com/images-mi/vnty_gr_bg.gif) repeat-x; height:26px;padding:8px 10px 0; }
+.srh_id{background:url(http://static.matrimonialsindia.com/images-mi/srh_id.gif) repeat-x top;padding-top:10px;}
+.go_bt{background:url(http://static.matrimonialsindia.com/images/bg.png) no-repeat 0 -352px;font-weight:bold;width:30px;height:22px;border:0;outline:none;vertical-align:middle;}
+
+
+/*********/
+.cbox{border:1px solid #bdccae;}
+.cbox_hightlight{border:1px solid #b7d996;background:#ffffd7;}
+.cbox_g1{background:#fff url(http://static.matrimonialsindia.com/images-mi/cbox_g1.gif) repeat-x bottom;border-bottom:1px solid #bdccae;}
+.cbox_g3{background:#eaf9dd url(http://static.matrimonialsindia.com/images-mi/cbox_g3.gif) repeat-x top;border-bottom:1px solid #bdccae;}
+
+
+.nclaasified_g1 { background:#fff url(http://static.matrimonialsindia.com/images-mi/nclaasified_g1.gif) repeat-x bottom; }
+.cl_green, .cl_green a:link, .cl_green a:visited { color:#516800; }
+.cl_green a:hover, .cl_green a:active { color:#000; }
+.clfy_bdr { border:1px solid #b4c5a5; background:#f7ffee; }
+.clfy_bg1 { background:#fffff8 url(http://static.matrimonialsindia.com/images-mi/g5.gif) repeat-x bottom; }
+.nclaasified_g2 { background:#ebf9de; } /*******url(images-mi/nclaasified_g2.gif) repeat-x bottom;******/
+
+.cl_green2, .cl_green2 a:link, .cl_green2 a:visited { color:#2d3a00; }
+.cl_green2 a:hover, .cl_green2 a:active { color:#000; }
+.joinNow .input { background:#fff url(http://static.matrimonialsindia.com/images-mi/jn_bg2.gif) repeat-x bottom; }
+
+
+/**Classified 17-10-2012***/
+
+.classified{border:1px solid #d3dbb3;background:#f9fdf2;}
+.classified:hover{background:#fff;border-color:#bdcba3;}
+.classified .bdr{border-color:#8d9385;}
+.classified .premium img{top:85px;left:-4px;}
+.classified .dul{color:#666;}
+.classified .icons{width:55px;padding-bottom:13px;}
+.classified .icons p{background:#eee url(http://static.matrimonialsindia.com/images/common_x_bgs_50px.png) 0 -2200px;height:30px;width:24px;border:1px solid #ccc;border-left:0;margin-bottom:3px;padding-right:10px;
+    -webkit-transition-duration:.3s;
+	-moz-transition-duration:	.3s;
+	-ms-transition-duration:	.3s;
+	-o-transition-duration:		.3s;
+	transition-duration:		.3s;}
+.classified .icons p:hover{padding:0 12px 0 4px;}
+.classified .icons .ph,.classified .icons .astro,.classified .icons .match,.classified .icons .favorites,.othr_icons .lc,.othr_icons .msg,.othr_icons .cd,.othr_icons .vfp,.othr_icons .cmf{background:url(http://static.matrimonialsindia.com/images/spirit_icons.png);display:inline-block;}
+
+.classified .icons .ph{ background-position:-9px -31px;height:13px;width:16px;margin:7px 0 0 9px;}
+.classified .icons .astro{background-position:-25px -28px;height:17px;width:25px;margin:5px 0 0 5px;}
+.classified .icons .match{background-position:-60px -30px;height:13px;width:15px;margin:8px 0 0 9px;}
+.classified .icons .favorites{background-position:-84px -29px;height:16px;width:16px;margin:6px 0 0 9px;}
+
+.othr_icons{width:150px;}
+.othr_icons p{margin-bottom:3px;}
+.othr_icons a{background:#f3ffe1;border:1px solid #c7d4b5;padding:6px 10px 0;height:24px;display:block}
+.othr_icons a:hover{background:#fff;}
+.othr_icons b{vertical-align:middle;margin-right:7px;}
+.othr_icons .lc{height:16px;width:16px;background-position:-109px -5px;padding-right:5px;}
+.othr_icons .msg{height:21px;width:19px;background-position:-6px -2px;}
+.othr_icons .cd{height:20px;width:22px;background-position:-28px -3px;}
+.othr_icons .vfp{height:19px;width:23px;background-position:-52px -2px;}
+.othr_icons .cmf{height:21px;width:21px;background-position:-79px -3px;}
+
+.classified.pm{background:#ffffd7;border-color:#d3dbb3;}
+.classified.pm .bdrT{border-color:#c7d3ab;}
+.classified.pm:hover{background:#ffffc5;border-color:#bccd79;}
+.classified.pm .icons p{background:#fff;}
+.classified.pm .othr_icons a{background:#fff;}
+.classified.pm .othr_icons a:hover{background:#f5ffdf;}

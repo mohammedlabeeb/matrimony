@@ -1,0 +1,5 @@
+.tool-tips-section{ position:fixed;  top:380px; right:15px; background:#fff;  width:38px; border:1px solid #ccc;}
+.icon-listing{ margin:0; padding:0; list-style:none; padding:5px;}
+.icon-listing li{ display:block; float:left;  width:100%;}
+.icon-listing li a{ display:block; float:left; margin:5px 0;}
+.checkbox-icon{ margin:4px 7px 4px 7px;}

@@ -1,0 +1,200 @@
+/***** BODY STYLES *****/
+body{color:#333;}
+a{color:#240;}
+a:hover{color:#690;}
+
+.hig,.hig a,a.hig,.hig-anchors a{color:#690;}.hig a:hover,a.hig:hover,.hig-anchors a:hover{color:#360;}
+.dif,.dif a,a.dif,.dif-anchors a{color:#c30;}.dif a:hover,a.dif:hover,.dif-anchors a:hover{color:#690;}
+
+.lightbg1{background-color:#dff2c2;}
+.lightbg2{background-color:#f1f1f1;}
+.darkbg1{background-color:#72be00;}
+.darkbg2{background-color:#c30;}
+.darkbg1.bdr{border-color:#527a00;}
+.darkbg2.bdr{border-color:#a32900;}
+
+.lightbdr1{border-color:#ccd9b8;}
+.lightbdr2{border-color:#e7e7e7;}
+
+.bgf9fbce{background-color:#f9fbce;}
+.bg360{background-color:#360;}
+.bg305ab3{background-color:#305ab3;} .bg305ab3:hover{background-color:#11388a;}
+
+a.lightbg1:hover,button.lightbg1:hover,input.lightbg1:focus,textarea.lightbg1:focus{background-color:#f1f1f1;}
+a.lightbg2:hover,button.lightbg2:hover,input.lightbg2:focus,textarea.lightbg2:focus{background-color:#dff2c2;}
+a.darkbg1:hover,button.darkbg1:hover,input.darkbg1:focus,textarea.darkbg1:focus{background-color:#0077b3;}
+a.darkbg2:hover,button.darkbg2:hover,input.darkbg2:focus,textarea.darkbg2:focus{background-color:#333;}
+
+a.darkbg1:hover,button.darkbg1:hover,input.darkbg1:focus,textarea.darkbg1:focus{background-color:#447100;}
+
+.bgf1f1f1{background-color:#f1f1f1;}
+.bgf8f8f8{background-color:#f8f8f8;}
+.bgfafafa{background-color:#f8f8f8;}
+.infobg{background-color:#ffc;}
+.alertbg{background-color:#fee;}
+
+.arrow.hig{border-color:#72be00;}
+.arrow.dif{border-color:#c30;}
+
+.f75x75,f120x135{background:none no-repeat center center;}
+.f75x75{width:120px;height:135px;}
+.f120x135{width:120px;height:135px;}
+
+/***** ELEMENT SPECIFIC STYLES *****/
+.fw{width:960px;margin-left:auto;margin-right:auto;}
+#header{background:url(http://static.matrimonialsindia.com/images-myfolder/sprite_icons.png) repeat-x 0 0;}
+.mi-my-folder{width:250px;height:60px;background:url(http://static.matrimonialsindia.com/images-myfolder/sprite_icons.png) no-repeat 0 -100px;}
+
+#tml{
+	border:1px solid #ccc;border-width:1px 0;border-color:rgba(255,255,255,.75);position:relative;z-index:1;
+	
+	-webkit-box-shadow:0 0 10px #999;
+	-moz-box-shadow:0 0 10px #999;
+	box-shadow:0 0 10px #999;
+}
+#tml > ul > li{float:left;border-right:1px solid #548c00;border-left:1px solid #7acc00; }
+#tml > ul > li:last-child{border-right:0;}
+#tml > ul > li > a{font-weight:bold;display:block;padding:0 14px;color:#dfb;line-height:40px;}
+#tml > ul > li.on,#tml > ul > li:hover{background-color:#c30;border-color:transparent;}
+#tml > ul > li.on a,#tml > ul > li > a:hover{color:#fff; z-index:99999;}
+#tml > ul > li.on:before,#tml > ul > li.on:after{content:'';border:7px solid transparent;position:absolute;bottom:-14px;left:50%;margin-left:-7px;}
+#tml > ul > li.on:before{border-top-color:#fff;bottom:-15px;}
+#tml > ul > li.on:after{border-top-color:#c30;}
+
+#copyright .white{text-shadow:1px 1px rgba(0,0,0,.5)}
+
+ /*prepend single arrow before*/
+.psab > *:before{content:'\203A';margin:0 5px 5px 0;font-family:Verdana, Geneva, sans-serif;float:left;}
+.hover-light-green-bg:hover{background-color:#f8fff1;}
+
+
+#breadcrumb li{display:inline-block;*display:inline;*margin-right:7px;}
+#breadcrumb li:before{content:'\00BB';margin:0 5px;font-weight:bold;color:#7f7f7f;font-family:Verdana, Geneva, sans-serif;}
+#breadcrumb li:first-child:before{content:'';margin:0;}
+
+
+.profiles-tcl li{border-top:1px solid #fff;border-bottom:1px solid #ddd;padding:0 10px;}
+.profiles-tcl li.active,.profiles-tcl li:hover{border-right:2px solid #fff;margin-right:-3px;background:#fff;font-weight:bold;}
+.profiles-tcl li a{display:inline-block;padding:7px 0;}
+.profiles-tcl li ul{margin:0 0 15px 11px;}
+.profiles-tcl li li{border:0;}
+.profiles-tcl li li a{padding:2px 0;}
+
+
+dl.hover-light-green-bg dt:hover,dl.hover-light-green-bg dt:hover+dd,dl.hover-light-green-bg dd:hover{background:#fff;color:#000;}
+dl.hover-light-silver-bg dt:hover,dl.hover-light-silver-bg dt:hover+dd,dl.hover-light-silver-bg dd:hover{
+	background:#f8f8f8;color:#000;
+	
+	-webkit-transition:background-color,color .5s;
+	-moz-transition:background-color,color .5s;
+	-ms-transition:background-color,color .5s;
+	-o-transition:background-color,color .5s;
+	transition:background-color,color .5s;
+}
+
+
+/***** IE STYLES *****/
+.no-rgba [class*=bdrw]{border-color:#ddd;}
+.no-generatedcontent .dt{*zoom:1;}
+.no-generatedcontent .dtc{float:left;}
+
+
+
+/**Classified 17-10-2012***/
+
+.classified{border:1px solid #d3dbb3;background:#f9fdf2;}
+.classified:hover{background:#fff;border-color:#bdcba3;}
+.classified .bdr{border-color:#8d9385;}
+.classified .premium img{top:72px;left:-4px;}
+.classified .dul{color:#666;}
+.classified .icons{width:55px;}
+.classified .icons p{background:#eee url(http://static.matrimonialsindia.com/images-myfolder/common_x_bgs_50px.png) 0 -2200px;height:30px;width:24px;border:1px solid #ccc;border-left:0;margin-bottom:3px;padding-right:10px;
+    -webkit-transition-duration:.3s;
+	-moz-transition-duration:	.3s;
+	-ms-transition-duration:	.3s;
+	-o-transition-duration:		.3s;
+	transition-duration:		.3s;}
+.classified .icons p:hover{padding:0 12px 0 4px;}
+.classified .icons .ph,.classified .icons .astro,.classified .icons .match,.classified .icons .favorites,.othr_icons .lc,.othr_icons .msg,.othr_icons .cd,.othr_icons .vfp,.othr_icons .cmf{background:url(http://static.matrimonialsindia.com/images-myfolder/spirit_icons.png);display:inline-block;}
+
+.classified .icons .ph{ background-position:-9px -31px;height:13px;width:16px;margin:7px 0 0 9px;}
+.classified .icons .astro{background-position:-25px -28px;height:17px;width:25px;margin:5px 0 0 5px;}
+.classified .icons .match{background-position:-60px -30px;height:13px;width:15px;margin:8px 0 0 9px;}
+.classified .icons .favorites{background-position:-84px -29px;height:16px;width:16px;margin:6px 0 0 9px;}
+
+.othr_icons{width:150px;}
+.othr_icons p{margin-bottom:3px;}
+.othr_icons a{background:#f3ffe1;border:1px solid #c7d4b5;padding:6px 10px 0;height:24px;display:block}
+.othr_icons a:hover{background:#fff;}
+.othr_icons b{vertical-align:middle;margin-right:7px;}
+.othr_icons .lc{height:16px;width:16px;background-position:-109px -5px;padding-right:5px;}
+.othr_icons .msg{height:21px;width:19px;background-position:-6px -2px;}
+.othr_icons .cd{height:20px;width:22px;background-position:-28px -3px;}
+.othr_icons .vfp{height:19px;width:23px;background-position:-52px -2px;}
+.othr_icons .cmf{height:21px;width:21px;background-position:-79px -3px;}
+
+.classified.pm{background:#ffffd7;border-color:#d3dbb3;}
+.classified.pm .bdrT{border-color:#c7d3ab;}
+.classified.pm:hover{background:#ffffc5;border-color:#bccd79;}
+.classified.pm .icons p{background:#fff;}
+.classified.pm .othr_icons a{background:#fff;}
+.classified.pm .othr_icons a:hover{background:#f5ffdf;}
+
+.paging {}
+.paging a{color:#666;border:1px solid #ccc;padding:2px 8px;background:#fff url(http://static.matrimonialsindia.com/images-myfolder/input_bg.png) repeat-x bottom;}
+
+.paging a:hover{color:#fff;background:#abbe52;border:1px solid #9aac44;}
+.paging span{color:#fff;background:#abbe52;border:1px solid #9aac44;padding:2px 8px;}
+
+
+/*   Images Scrolling CSS    */
+.stepcarousel{position:relative; overflow:scroll; width:295px; height:50px; margin:auto;}
+.stepcarousel .belt{position:absolute; left:0; top:0;}
+.stepcarousel .panel{width:295px; text-align:center;}
+
+
+/**/.tabs li{list-style:none; display:inline;}
+.tabs a{display:inline-block;}
+.tabs a.active{background:#dff2c2; font-weight:bold; 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00ffffff', EndColorStr='#ffffffff');*zoom:1;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(255,255,255,0))); 
+	background-image:-webkit-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:   -moz-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:    -ms-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:     -o-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:        linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));}
+	
+
+.tabbing{border-bottom:solid 1px #ccc; padding-bottom:33px;}
+.off2{border-top-left-radius:5px; border-top-right-radius:5px; border:solid 1px #ccc; border-bottom:none; padding:7px 10px;
+background:#f1f1f1; display:block; float:left; margin-left:10px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffffff', EndColorStr='#00ffffff');*zoom:1;
+	background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(255,255,255,0)),to(rgba(255,255,255,0)));
+	background-image:-webkit-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:   -moz-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:    -ms-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:     -o-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:        linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+.on2{background:#dff2c2; font-weight:bold; border-top-left-radius:5px; border-top-right-radius:5px;  border:solid 1px #ccc; border-bottom:none;padding:7px 10px;  position:relative; top:1px; display:block; float:left;  margin-left:10px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00ffffff', EndColorStr='#ffffffff');*zoom:1;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(255,255,255,0))); 
+	background-image:-webkit-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:   -moz-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:    -ms-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:     -o-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+	background-image:        linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.grid{background:url(http://static.matrimonialsindia.com/images-myfolder/grid-view.gif) 0 -0px no-repeat; width:31px; height:24px; float:left; margin-left:10px}
+.grid-selected{background:url(http://static.matrimonialsindia.com/images-myfolder/grid-view.gif) 0 -25px no-repeat; width:31px; height:24px; float:left; margin-left:10px}
+
+.list{background:url(http://static.matrimonialsindia.com/images-myfolder/list-view.gif) 0 0px no-repeat; width:31px; height:24px; float:left; margin-left:10px}
+.list-selected{background:url(http://static.matrimonialsindia.com/images-myfolder/list-view.gif) 0 -25px no-repeat; width:31px; height:24px; float:left; margin-left:10px}
+
+.fs20
+{
+font-size: 20px;
+font-family: Georgia,"Times New Roman",Times,serif;
+ color: #728A4D;	
+}

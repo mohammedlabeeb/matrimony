@@ -1,0 +1,952 @@
+/*********** SELECTORS STYLES  ***********/
+table { border-collapse:collapse; border-spacing:0; }
+
+a.button { background:#fff none repeat-x bottom; border:1px solid #999; }
+a.button:hover { border:1px solid #666; }
+
+
+
+
+a.buttonBig,input.button,.buttonBig{background:#ff2e12 url(http://static.matrimonialsindia.com/images/common_x_bgs_50px.png) 0 -1790px;color:#fff;text-shadow:1px 1px 1px #000;border:1px solid #7e2608;box-shadow:0 2px 4px rgba(255, 255, 255,.7) inset;}
+a.buttonBig:hover,input.button:hover,.buttonBig:hover{border-color:#666;background-color:#c00;}
+
+
+
+input.button { background:#393 url(http://static.matrimonialsindia.com/images/button_bg.png) repeat-x bottom; color:#fff; border:1px solid #ccc; padding:2px 8px; overflow:visible; cursor:pointer; }
+input.button:hover { background:#060; }
+.star { font-family:verdana; color:#f00; }
+.none{display:none;}
+
+/***** ALIGNMENT STYLES *****/
+.al { text-align:left; }
+.ar { text-align:right; }
+.ac { text-align:center; }
+.aj { text-align:justify; }
+.vat { vertical-align:top; }
+.vam { vertical-align:middle; }
+.vaSub { vertical-align:sub; }
+.vaSup { vertical-align:super; }
+.vab { vertical-align:bottom; }
+.fo { float:left; width:100%; display:inline; }
+.fl { float:left; display:inline; }
+.fr { float:right; display:inline; }
+.flwm { float:left; margin:0 10px 5px 0; display:inline; }
+.frwm { float:right; margin:0 0 5px 10px; display:inline; }
+.cb { clear:both; }
+.cl { clear:left; }
+.cr { clear:right; }
+
+/***** FORMAT STYLES *****/
+.b1px { height:1px; line-height:1px; font-size:1px; }
+.alpha50 { opacity:0.5; filter:alpha(opacity=50); }
+.alpha75 { opacity:.75; filter:alpha(opacity=75); }
+.b { font-weight:bold; }
+.bn { font-weight:normal; }
+.i { font-style:italic; }
+.in { font-style:normal; }
+.uo a { text-decoration:none; } .uo a:hover { text-decoration:underline; }
+.uu a { text-decoration:underline; } .uu a:hover { text-decoration:none; }
+.u, a.u { text-decoration:underline; } .u a:hover, a.u:hover { text-decoration:none; }
+.un, .un a, .un a:hover { text-decoration:none; }
+.n { font-weight:normal; }
+.bcs { border-collapse:separate; }
+.nw { white-space:nowrap; }
+.ww { word-wrap:break-word; word-break:break-all; word-break/* */:normal; }
+.ttc { text-transform:capitalize; }
+.ttl { text-transform:lowercase; }
+.ttu { text-transform:uppercase; }
+.fvsc { font-variant:small-caps; }
+.db { display:block; margin:0 auto; }
+.di { display:inline; }
+.dib { display:inline-block; }
+.dn { display:none; }
+.pa { position:absolute; }
+.pr { position:relative; }
+.cp { cursor:pointer; }
+.ch{cursor:help;}
+.ul0 li { list-style:none; }
+
+/***** BORDER RADIUS STYLES *****/
+.c1px{border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;}
+.c2px{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+.c3px{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.c4px{border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.c5px{border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.c7px{border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;}
+.c10px{border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+.c12px{border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px;}
+.c15px{border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;}
+.c17px{border-radius:17px;-moz-border-radius:17px;-webkit-border-radius:17px;}
+.c20px{border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;}
+.c22px{border-radius:22px;-moz-border-radius:22px;-webkit-border-radius:22px;}
+.c25px{border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;}
+.c27px{border-radius:27px;-moz-border-radius:27px;-webkit-border-radius:27px;}
+.c30px{border-radius:30px;-moz-border-radius:30px;-webkit-border-radius:30px;}
+
+.ctl1px{border-top-left-radius:1px;-moz-border-radius-topleft:1px;-webkit-border-top-left-radius:1px;}
+.ctl2px{border-top-left-radius:2px;-moz-border-radius-topleft:2px;-webkit-border-top-left-radius:2px;}
+.ctl3px{border-top-left-radius:3px;-moz-border-radius-topleft:3px;-webkit-border-top-left-radius:3px;}
+.ctl4px{border-top-left-radius:4px;-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;}
+.ctl5px{border-top-left-radius:5px;-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;}
+.ctl7px{border-top-left-radius:7px;-moz-border-radius-topleft:7px;-webkit-border-top-left-radius:7px;}
+.ctl10px{border-top-left-radius:10px;-moz-border-radius-topleft:10px;-webkit-border-top-left-radius:10px;}
+.ctl12px{border-top-left-radius:12px;-moz-border-radius-topleft:12px;-webkit-border-top-left-radius:12px;}
+.ctl15px{border-top-left-radius:15px;-moz-border-radius-topleft:15px;-webkit-border-top-left-radius:15px;}
+.ctl17px{border-top-left-radius:17px;-moz-border-radius-topleft:17px;-webkit-border-top-left-radius:17px;}
+.ctl20px{border-top-left-radius:20px;-moz-border-radius-topleft:20px;-webkit-border-top-left-radius:20px;}
+.ctl22px{border-top-left-radius:22px;-moz-border-radius-topleft:22px;-webkit-border-top-left-radius:22px;}
+.ctl25px{border-top-left-radius:25px;-moz-border-radius-topleft:25px;-webkit-border-top-left-radius:25px;}
+.ctl27px{border-top-left-radius:27px;-moz-border-radius-topleft:27px;-webkit-border-top-left-radius:27px;}
+.ctl30px{border-top-left-radius:30px;-moz-border-radius-topleft:30px;-webkit-border-top-left-radius:30px;}
+
+.ctr1px{border-top-right-radius:1px;-moz-border-radius-topright:1px;-webkit-border-top-right-radius:1px;}
+.ctr2px{border-top-right-radius:2px;-moz-border-radius-topright:2px;-webkit-border-top-right-radius:2px;}
+.ctr3px{border-top-right-radius:3px;-moz-border-radius-topright:3px;-webkit-border-top-right-radius:3px;}
+.ctr4px{border-top-right-radius:4px;-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;}
+.ctr5px{border-top-right-radius:5px;-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
+.ctr7px{border-top-right-radius:7px;-moz-border-radius-topright:7px;-webkit-border-top-right-radius:7px;}
+.ctr10px{border-top-right-radius:10px;-moz-border-radius-topright:10px;-webkit-border-top-right-radius:10px;}
+.ctr12px{border-top-right-radius:12px;-moz-border-radius-topright:12px;-webkit-border-top-right-radius:12px;}
+.ctr15px{border-top-right-radius:15px;-moz-border-radius-topright:15px;-webkit-border-top-right-radius:15px;}
+.ctr17px{border-top-right-radius:17px;-moz-border-radius-topright:17px;-webkit-border-top-right-radius:17px;}
+.ctr20px{border-top-right-radius:20px;-moz-border-radius-topright:20px;-webkit-border-top-right-radius:20px;}
+.ctr22px{border-top-right-radius:22px;-moz-border-radius-topright:22px;-webkit-border-top-right-radius:22px;}
+.ctr25px{border-top-right-radius:25px;-moz-border-radius-topright:25px;-webkit-border-top-right-radius:25px;}
+.ctr27px{border-top-right-radius:27px;-moz-border-radius-topright:27px;-webkit-border-top-right-radius:27px;}
+.ctr30px{border-top-right-radius:30px;-moz-border-radius-topright:30px;-webkit-border-top-right-radius:30px;}
+
+.cbl1px{border-bottom-left-radius:1px;-moz-border-radius-bottomleft:1px;-webkit-border-bottom-left-radius:1px;}
+.cbl2px{border-bottom-left-radius:2px;-moz-border-radius-bottomleft:2px;-webkit-border-bottom-left-radius:2px;}
+.cbl3px{border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;-webkit-border-bottom-left-radius:3px;}
+.cbl4px{border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;}
+.cbl5px{border-bottom-left-radius:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;}
+.cbl7px{border-bottom-left-radius:7px;-moz-border-radius-bottomleft:7px;-webkit-border-bottom-left-radius:7px;}
+.cbl10px{border-bottom-left-radius:10px;-moz-border-radius-bottomleft:10px;-webkit-border-bottom-left-radius:10px;}
+.cbl12px{border-bottom-left-radius:12px;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;}
+.cbl15px{border-bottom-left-radius:15px;-moz-border-radius-bottomleft:15px;-webkit-border-bottom-left-radius:15px;}
+.cbl17px{border-bottom-left-radius:17px;-moz-border-radius-bottomleft:17px;-webkit-border-bottom-left-radius:17px;}
+.cbl20px{border-bottom-left-radius:20px;-moz-border-radius-bottomleft:20px;-webkit-border-bottom-left-radius:20px;}
+.cbl22px{border-bottom-left-radius:22px;-moz-border-radius-bottomleft:22px;-webkit-border-bottom-left-radius:22px;}
+.cbl25px{border-bottom-left-radius:25px;-moz-border-radius-bottomleft:25px;-webkit-border-bottom-left-radius:25px;}
+.cbl27px{border-bottom-left-radius:27px;-moz-border-radius-bottomleft:27px;-webkit-border-bottom-left-radius:27px;}
+.cbl30px{border-bottom-left-radius:30px;-moz-border-radius-bottomleft:30px;-webkit-border-bottom-left-radius:30px;}
+
+.cbr1px{border-bottom-right-radius:1px;-moz-border-radius-bottomright:1px;-webkit-border-bottom-right-radius:1px;}
+.cbr2px{border-bottom-right-radius:2px;-moz-border-radius-bottomright:2px;-webkit-border-bottom-right-radius:2px;}
+.cbr3px{border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;-webkit-border-bottom-right-radius:3px;}
+.cbr4px{border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;}
+.cbr5px{border-bottom-right-radius:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}
+.cbr7px{border-bottom-right-radius:7px;-moz-border-radius-bottomright:7px;-webkit-border-bottom-right-radius:7px;}
+.cbr10px{border-bottom-right-radius:10px;-moz-border-radius-bottomright:10px;-webkit-border-bottom-right-radius:10px;}
+.cbr12px{border-bottom-right-radius:12px;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;}
+.cbr15px{border-bottom-right-radius:15px;-moz-border-radius-bottomright:15px;-webkit-border-bottom-right-radius:15px;}
+.cbr17px{border-bottom-right-radius:17px;-moz-border-radius-bottomright:17px;-webkit-border-bottom-right-radius:17px;}
+.cbr20px{border-bottom-right-radius:20px;-moz-border-radius-bottomright:20px;-webkit-border-bottom-right-radius:20px;}
+.cbr22px{border-bottom-right-radius:22px;-moz-border-radius-bottomright:22px;-webkit-border-bottom-right-radius:22px;}
+.cbr25px{border-bottom-right-radius:25px;-moz-border-radius-bottomright:25px;-webkit-border-bottom-right-radius:25px;}
+.cbr27px{border-bottom-right-radius:27px;-moz-border-radius-bottomright:27px;-webkit-border-bottom-right-radius:27px;}
+.cbr30px{border-bottom-right-radius:30px;-moz-border-radius-bottomright:30px;-webkit-border-bottom-right-radius:30px;}
+
+/***** MARGIN STYLES *****/
+.ma1px a { margin:0 1px; }
+.ma2px a { margin:0 2px; }
+.ma3px a { margin:0 3px; }
+.ma5px a { margin:0 5px; }
+.ma7px a { margin:0 7px; }
+.ma10px a { margin:0 10px; }
+.ma12px a { margin:0 12px; }
+.ma15px a { margin:0 15px; }
+
+.m0px { margin:0px; }
+.m1px { margin:1px; }
+.m1px2px { margin:1px 2px; }
+.m1px5px { margin:1px 5px; }
+.m2px { margin:2px; }
+.m2px5px { margin:2px 5px; }
+.m2px10px { margin:2px 10px; }
+.m3px { margin:3px; }
+.m4px { margin:4px; }
+.m5px { margin:5px; }
+.m5px10px { margin:5px 10px; }
+.m5px15px { margin:5px 15px; }
+.m7px { margin:7px; }
+.m10px { margin:10px; }
+.m12px { margin:12px; }
+.m15px { margin:15px; }
+.m17px { margin:17px; }
+.m20px { margin:20px; }
+.m22px { margin:22px; }
+.m25px { margin:25px; }
+.mt0px { margin-top:0px; }
+.mt1px { margin-top:1px; }
+.mt2px { margin-top:2px; }
+.mt5px { margin-top:5px; }
+.mt7px { margin-top:7px; }
+.mt10px { margin-top:10px; }
+.mt12px { margin-top:12px; }
+.mt15px { margin-top:15px; }
+.mt17px { margin-top:17px; }
+.mt20px { margin-top:20px; }
+.mt22px { margin-top:22px; }
+.mt25px { margin-top:25px; }
+.mt30px { margin-top:30px; }
+.mr0px { margin-right:0px; }
+.mr1px { margin-right:1px; }
+.mr2px { margin-right:2px; }
+.mr5px { margin-right:5px; }
+.mr7px { margin-right:7px; }
+.mr10px { margin-right:10px; }
+.mr12px { margin-right:12px; }
+.mr15px { margin-right:15px; }
+.mr17px { margin-right:17px; }
+.mr20px { margin-right:20px; }
+.mr22px { margin-right:22px; }
+.mr25px { margin-right:25px; }
+.mr30px { margin-right:30px; }
+.mb0px { margin-bottom:0px; }
+.mb1px { margin-bottom:1px; }
+.mb2px { margin-bottom:2px; }
+.mb5px { margin-bottom:5px; }
+.mb7px { margin-bottom:7px; }
+.mb10px { margin-bottom:10px; }
+.mb12px { margin-bottom:12px; }
+.mb15px { margin-bottom:15px; }
+.mb17px { margin-bottom:17px; }
+.mb20px { margin-bottom:20px; }
+.mb22px { margin-bottom:22px; }
+.mb25px { margin-bottom:25px; }
+.mb30px { margin-bottom:30px; }
+.ml0px { margin-left:0px; }
+.ml1px { margin-left:1px; }
+.ml2px { margin-left:2px; }
+.ml5px { margin-left:5px; }
+.ml7px { margin-left:7px; }
+.ml10px { margin-left:10px; }
+.ml12px { margin-left:12px; }
+.ml15px { margin-left:15px; }
+.ml17px { margin-left:17px; }
+.ml20px { margin-left:20px; }
+.ml22px { margin-left:22px; }
+.ml25px { margin-left:25px; }
+.ml30px { margin-left:30px; }
+
+/***** PADDING STYLES *****/
+.p0px { padding:0px; }
+.p1px { padding:1px; }
+.p1px2px { padding:1px 2px; }
+.p1px5px { padding:1px 5px; }
+.p2px { padding:2px; }
+.p2px5px { padding:2px 5px; }
+.p2px10px { padding:2px 10px; }
+.p3px { padding:3px; }
+.p3spx5px { padding:3px 5px; }
+.p4px { padding:4px; }
+.p5px { padding:5px; }
+.p5px10px { padding:5px 10px; }
+.p5px15px { padding:5px 15px; }
+.p7px { padding:7px; }
+.p10px { padding:10px; }
+.p10px15px { padding:10px 15px; }
+.p10px20px { padding:10px 20px; }
+.p12px { padding:12px; }
+.p15px { padding:15px; }
+.p17px { padding:17px; }
+.p20px { padding:20px; }
+.p22px { padding:22px; }
+.p25px { padding:25px; }
+.pt0px { padding-top:0px; }
+.pt1px { padding-top:1px; }
+.pt2px { padding-top:2px; }
+.pt5px { padding-top:5px; }
+.pt7px { padding-top:7px; }
+.pt10px { padding-top:10px; }
+.pt12px { padding-top:12px; }
+.pt15px { padding-top:15px; }
+.pt17px { padding-top:17px; }
+.pt20px { padding-top:20px; }
+.pt22px { padding-top:22px; }
+.pt25px { padding-top:25px; }
+.pt30px { padding-top:30px; }
+.pr0px { padding-right:0px; }
+.pr1px { padding-right:1px; }
+.pr2px { padding-right:2px; }
+.pr5px { padding-right:5px; }
+.pr7px { padding-right:7px; }
+.pr10px { padding-right:10px; }
+.pr12px { padding-right:12px; }
+.pr15px { padding-right:15px; }
+.pr17px { padding-right:17px; }
+.pr20px { padding-right:20px; }
+.pr22px { padding-right:22px; }
+.pr25px { padding-right:25px; }
+.pr30px { padding-right:30px; }
+.pb0px { padding-bottom:0px; }
+.pb1px { padding-bottom:1px; }
+.pb2px { padding-bottom:2px; }
+.pb5px { padding-bottom:5px; }
+.pb7px { padding-bottom:7px; }
+.pb10px { padding-bottom:10px; }
+.pb12px { padding-bottom:12px; }
+.pb15px { padding-bottom:15px; }
+.pb17px { padding-bottom:17px; }
+.pb20px { padding-bottom:20px; }
+.pb22px { padding-bottom:22px; }
+.pb25px { padding-bottom:25px; }
+.pb30px { padding-bottom:30px; }
+.pl0px { padding-left:0px; }
+.pl1px { padding-left:1px; }
+.pl2px { padding-left:2px; }
+.pl5px { padding-left:5px; }
+.pl7px { padding-left:7px; }
+.pl10px { padding-left:10px; }
+.pl12px { padding-left:12px; }
+.pl15px { padding-left:15px; }
+.pl17px { padding-left:17px; }
+.pl20px { padding-left:20px; }
+.pl22px { padding-left:22px; }
+.pl25px { padding-left:25px; }
+.pl30px { padding-left:30px; }
+
+/***** COLOR STYLES *****/
+.black, .black a, a.black { color:#000; } .black a:hover, a.black:hover { color:#f00; }
+.blue, .blue a, a.blue { color:#066; } .blue a:hover, a.blue:hover { color:#033; }
+.brown, .brown a, a.brown { color:#600; } .brown a:hover, a.brown:hover { color:#960; }
+.chocolate, .chocolate a, a.chocolate { color:#D2691E; } .chocolate a:hover, a.chocolate:hover { color:#9A4F16; }
+.cyan, .cyan a, a.cyan { color:#0ff; } .cyan a:hover, a.cyan:hover { color:#09c; }
+.golden, .golden a, a.golden { color:#a0501c; } .golden a:hover, a.golden:hover { color:#c60; }
+.gray, .gray a, a.gray { color:#666; } .gray a:hover, a.gray:hover { color:#222; }
+.green, .green a, a.green { color:#030; } .green a:hover, a.green:hover { color:#060; }
+.magenta, .magenta a, a.magenta { color:#f0f; } .magenta a:hover, a.magenta:hover { color:#606; }
+.maroon, .maroon a, a.maroon { color:#c00; } .maroon a:hover, a.maroon:hover { color:#900; }
+.orange, .orange a, a.orange { color:#f60; } .orange a:hover, a.orange:hover { color:#f00; }
+.purple, .purple a, a.purple{ color:#800080; } .purple a:hover, a.purple:hover { color:#4000ff; }
+.red, .red a, a.red { color:#f00; } .red a:hover, a.red:hover { color:#c00; }
+.silver, .silver a, a.silver { color:#ccc; } .silver a:hover, a.silver:hover { color:#fff; }
+.white, .white a, a.white { color:#fff; } .white a:hover, a.white:hover { color:#fdb; }
+.yellow, .yellow a, a.yellow { color:#ff0; } .yellow a:hover, a.yellow:hover { color:#ff9; }
+
+/***** FONT STYLES *****/
+.lh0em { line-height:0em; }
+.lh02em { line-height:0.2em; }
+.lh05em { line-height:0.5em; }
+.lh07em { line-height:0.7em; }
+.lh1em { line-height:1em; }
+.lh11em { line-height:1.1em; }
+.lh12em { line-height:1.2em; }
+.lh13em { line-height:1.3em; }
+.lh14em { line-height:1.4em; }
+.lh15em { line-height:1.5em; }
+.lh17em { line-height:1.7em; }
+.lh2em { line-height:2em; }
+.lh22em { line-height:2.2em; }
+.lh25em { line-height:2.5em; }
+
+.small { font-size:0.9em; }
+.xsmall { font-size:0.8em; }
+.xxsmall{font-size:0.7em;}
+.xxxsmall{font-size:0.6em;}
+.large { font-size:1.1em; }
+.xlarge { font-size:1.2em; }
+.xxlarge { font-size:1.4em; }
+.fs15{font-size:15px;}
+.xxxlarge { font-size:1.6em; }
+
+
+/***** OTHER STYLES *****/
+.w1{width:1%;}
+.w5 { width:5%; }
+.w10 { width:10%; }
+.w15 { width:15%; }
+.w18{width:18.5%;}
+.w195 { width:19.5%; }
+.w20 { width:20%; }
+.w23 { width:23%; }
+.w245 { width:24.5%; }
+.w25 { width:25%; }
+.w30 { width:30%; }
+.w31 { width:31%; }
+.w33 { width:33%; }
+.w40 { width:40%; }
+.w45 { width:45%; }
+.w48 { width:48%; }
+.w49 { width:49%; }
+.w50 { width:50%; }
+.w60 { width:60%; }
+.w66 { width:66%; }
+.w70 { width:70%; }
+.w75 { width:75%; }
+.w80 { width:80%; }
+.w85 { width:85%; }
+.w90 { width:90%; }
+.w95 { width:95%; }
+.w100 { width:100%; }
+
+/********** BODY STYLES **********/
+.bdr { border:1px solid; }
+.bdrBd{border-bottom:1px dashed #ccc;}
+.bdrT { border-top:1px solid }
+.bdrR { border-right:1px solid; }
+.bdrB { border-bottom:1px solid; }
+.bdrL { border-left:1px solid; }
+.bdr, .bdrT, .bdrR, .bdrB, .bdrL { border-color:#ddd; }
+.bdre7c16f {border:1px solid #e7c16f;}
+.bdrAll td, .bdrAll th  { border:1px dashed #ccc; }
+.bdrT0 { border-top:0; }
+.bdrR0 { border-right:0; }
+.bdrB0 { border-bottom:0; }
+.bdrL0 { border-left:0; }
+.bdr0, .bdr0 td, .bdr0 th { border:0; }
+
+hr { height:1px; color:#ccc; background:#ccc; border:0; }
+.dif, .dif a, a.dif { color:#c00; } .dif a:hover, a.dif:hover { color:#900; }
+.imgBdr { border:1px solid #999; }
+
+.bgfff{background:#fff;}
+.bgfafafa{background:#fafafa;}
+.bgf8f8f8{background:#f8f8f8;}
+.bgf1f1f1{background:#f1f1f1;}
+.bgfffdf2{background:#fffdf2;}
+.bge7c16f{background:#e7c16f;}
+.bgfbfff8{background:#fbfff8;}
+.bgffffbf{background:#ffffbf;}
+.bgd0e7bc{background:#d0e7bc;}
+.bgfff7f7{background:#fff7f7;}
+.bgecf0e3{background:#ecf0e3;}
+.bgf4f2e8{background:#f4f2e8;}
+.bgfbfff3{background:#fbfff3;}
+
+.bdrbed563{border:1px solid #bed563;}
+.bdrd63d48{border:1px solid #d63d48;}
+.bdrf1bcbc{border:1px solid #f1bcbc;}
+.bdrecf0e3{border:1px solid #ecf0e3;}
+.bdrfafaf9{border:3px solid #fafaf9;}
+.bdrbed563{border:1px solid #bed563;}
+.bdrcfeac8{border:1px solid #cfeac8;}
+
+/*****/
+
+.g1{background:#fff url(http://static.matrimonialsindia.com/images/g1.gif) repeat-x bottom;}
+.tree{color:#999;font-size:11px;}
+.tree a{color:#666;}.tree a:hover{color:#999;}
+
+.b1{background:url(http://static.matrimonialsindia.com/images/bg.png) no-repeat -1px -404px;}
+.b2{background:url(http://static.matrimonialsindia.com/images/bg.png) no-repeat -1px -3050px;}
+.b3{background:url(http://static.matrimonialsindia.com/images/b3.gif) no-repeat 0 5px;}
+
+.hr{background:url(http://static.matrimonialsindia.com/images/hr.gif) repeat-x;}
+.vr{background:url(http://static.matrimonialsindia.com/images/vr.gif) repeat-y;}
+.bpb{background-position:bottom;}
+
+.amem{margin-bottom:5px;border-top:1px solid #dee7d1;text-align:right;width:100%;padding:10px 0;}
+.amem a{color:#c00;}
+.jn_g2{background:url(http://static.matrimonialsindia.com/images/jn_g2.gif) repeat-x;color:#fff;}
+.jn_g2 b{font-size:18px;font-weight:normal;}
+.jn_g2 span{font-size:15px;float:right;}
+.joinNow{}
+.joinNow h1{font-size:20px;font-weight:normal;display:block;color:#f60;}
+.joinNow .input{background:url(http://static.matrimonialsindia.com/images/jn_g1.gif) repeat-x left 10px;padding:3px;}
+.joinNow input, select{font-size:12px;}
+.joinNow .rgt{padding:10px 10px 10px 50px;}
+.join_bul{padding:5px 10px 5px 24px; background:url(http://static.matrimonialsindia.com/images/join_bul.gif) no-repeat left 8px;}
+.hr22{background:url(http://static.matrimonialsindia.com/images/hr22.gif) repeat-x; margin:25px 0;}
+
+.heading h1{font-size:20px;font-weight:normal;display:block;color:#690;}
+
+
+
+.refine_bg{background:url(http://static.matrimonialsindia.com/images/refine_bg.gif) repeat-x;}
+.refine_bg2{background:#e8f7aa url(http://static.matrimonialsindia.com/images/refine_bg2.gif) repeat-x top;}
+.refine_bdr{border:1px solid #ccc;border-width:0 1px 1px;}
+
+.fld_g1{background:url(http://static.matrimonialsindia.com/images/fld_g1.gif) repeat-x bottom;}
+
+
+.search{background:url(http://static.matrimonialsindia.com/images/bg.png) no-repeat 0 -3014px;border:0;height:22px;width:60px;font-weight:bold;}
+.gobtn{background:url(http://static.matrimonialsindia.com/images/bg.png) no-repeat 0 -352px;font-weight:bold;width:30px;height:22px;border:0;outline:none;vertical-align:middle;}
+
+
+.searchBox{background:#fdfaeb url(http://static.matrimonialsindia.com/images/bg.png) repeat-x 0 -664px;border:1px solid #a7cb9c;color:#000; padding:10px 5px;float:left;}
+.searchBox input, select{vertical-align:middle;font-size:11px;}
+.searchBox .w{width:90%;}
+.searchBox .l{float:left;width:70px;padding:3px 5px 4px 10px; text-align:right;}
+.searchBox .r{float:right;width:160px;padding:3px 0 4px;}
+.searchBox .bt{background:url(http://static.matrimonialsindia.com/images/bg.png) no-repeat 0 -960px;font-weight:bold;width:120px;height:25px;border:0;color:#fff;outline:none;margin-bottom:8px;font-size:12px;}
+
+.bt{background:url(http://static.matrimonialsindia.com/images/jn_g2.gif) repeat-x;border:1px solid #000;padding:3px 10px;color:#fff;font-weight:bold;}
+
+
+.sfpBg1{background:url(http://static.matrimonialsindia.com/images/sfpBg1.gif) repeat-x;}
+.sfpBg2{background:url(http://static.matrimonialsindia.com/images/sfpBg2.gif) repeat-x;}
+.cmlBg{background:url(http://static.matrimonialsindia.com/images/cmlBg.jpg) no-repeat right bottom;}
+
+.cm_c_bg1 {background:url(http://static.matrimonialsindia.com/images/cm_c_bg1.gif) no-repeat 0px 15px;}
+.cm_c_bg2 {background:url(http://static.matrimonialsindia.com/images/cm_c_bg2.gif) no-repeat right 50px;padding:0 0 65px;}
+.cm_alpha_bg{background:url(http://static.matrimonialsindia.com/images/cm_alpha_bg.gif) repeat-y;padding:2px 0 4px;color:#fff;font-weight:bold;font-size:15px;width:28px;}
+.rightMatch{background:url(http://static.matrimonialsindia.com/images/rightMatch.jpg) no-repeat right bottom;}
+
+
+.paging {}
+.paging a{color:#666;border:1px solid #ccc;padding:2px 8px;background:#fff url(http://static.matrimonialsindia.com/images/input_bg.png) repeat-x bottom;}
+
+.paging a:hover{color:#fff;background:#abbe52;border:1px solid #9aac44;}
+.paging span{color:#fff;background:#abbe52;border:1px solid #9aac44;padding:2px 8px;}
+
+.cf_bg1{background:url(http://static.matrimonialsindia.com/images//cf_bg1.gif) repeat-x;padding:3px 6px 5px 10px;}
+.mf_g2{background:url(http://static.matrimonialsindia.com/images/mf_g2.gif) repeat-x;}
+.inviteIcon{background:url(http://static.matrimonialsindia.com/images/inviteIcon.gif) no-repeat 9px 7px;padding:8px 5px 8px 35px;display:inline-block;}
+.liveHelpIcon{background:url(http://static.matrimonialsindia.com/images/liveHelpIcon.gif) no-repeat 9px 7px;padding:8px 5px 8px 35px;display:inline-block;}
+.securityIcon{background:url(http://static.matrimonialsindia.com/images/securityIcon.gif) no-repeat 9px 7px;padding:8px 5px 8px 35px;display:inline-block;}
+
+.sunsign{padding:20px 20px 20px 0; text-align:center;background:url(http://static.matrimonialsindia.com/images/hr22.gif) repeat-x bottom;}
+.sunsign2{padding:20px 0 20px 20px; text-align:center;background:url(http://static.matrimonialsindia.com/images/hr22.gif) repeat-x bottom;}
+.ss_tx{padding:20px 0;text-align:justify;background:url(http://static.matrimonialsindia.com/images/hr22.gif) repeat-x bottom;color:#666;}
+.htittle{font:bold 13px/1.5em Arial;color:#360;padding:5px 10px;text-transform:uppercase;background:#fbfff3;border:1px solid #cfeac8;margin-bottom:10px;}
+
+
+/*******personal website********/
+
+.bantopBg{background:url(http://static.matrimonialsindia.com/images/bantopBg.gif) repeat-x;}
+.ban_bdrlr { border:1px solid #d7d7d7; border-width:0 1px; }
+.banbotbg { background:url(http://static.matrimonialsindia.com/images/banbotbg.gif) repeat-x; }
+.bantempl_s { background:url(http://static.matrimonialsindia.com/images/bantempl_s.gif) no-repeat top; }
+.howit-topbg { background:url(http://static.matrimonialsindia.com/images/howit-topbg.gif) repeat-x; }
+
+
+.become a, .domain a, .pick a, .edit a, .publish a, .share a{background:url(http://static.matrimonialsindia.com/images/works.gif) no-repeat;display:block;font-size:11px;font-weight:bold;color:#222;height:60px; padding-top:55px;line-height:1.4em;}
+
+.become a{background-position:center 0px;}
+.become a:hover{background-position:center -119px;}
+
+.domain a{background-position:center -240px;}
+.domain a:hover{background-position:center -360px;}
+
+.pick a{background-position:center -480px;}
+.pick a:hover{background-position:center -600px;}
+
+.edit a{background-position:center -720px;}
+.edit a:hover{background-position:center -840px;}
+
+.publish a{background-position:center -960px;}
+.publish a:hover{background-position:center -1080px;}
+
+.share a{background-position:center -1205px;}
+.share a:hover{background-position:center -1325px;}
+
+.g2{background:url(http://static.matrimonialsindia.com/images/g2.gif) repeat-x top;color:#363;}
+.g3{background:url(http://static.matrimonialsindia.com/images/g3.gif) repeat-x top;}
+
+#round{
+	border:1px solid #000; display:block;
+	
+	}
+
+.navigation{background:url(http://static.matrimonialsindia.com/images/mf_g1.gif) repeat-x top;font-weight:bold;}
+.navigation ul{margin:0;padding:0;list-style:none;}
+.navigation li{margin-bottom:0;position:relative;}
+.navigation > ul > li{float:left;}
+.navigation li a{display:block;;}
+.navigation > ul > li > a{padding:6px 28px;border-right:1px solid #e5e5e5;color:#fff;}
+.navigation > ul > li:last-child > a:first-child{border-right:0;}
+.navigation ul ul{position:absolute;display:none;font-weight:normal;line-height:1.2em;background:#e1302f;color:#fff;padding-bottom:10px;border:1px solid #e1302f;min-width:170px}
+.navigation ul ul a{padding:5px 10px;color:#fff;border-bottom:1px solid #ed8382;}
+.navigation ul ul a:hover{background:#fff;color:#000;}
+.navigation .selected{background:#e1302f;color:#fff;}
+.navigation .over{background:#fff;color:#000;border:1px solid #e1302f;border-width:0 1px;}
+
+
+/*****MI Profile page****/
+.lsn{list-style:none;}
+.mi_profile .h,.mi_profile .searchOption .h,.features{background:#eee url(http://static.matrimonialsindia.com/images/common_x_bgs_50px.png) repeat-x 0 -2100px;}
+.relatedLinks{background:#f6ffe9;border:1px solid #c7d4b5;}
+.relatedLinks p{border-bottom:1px solid #c7d4b5;}
+.relatedLinks p:last-child{border:0;}
+.relatedLinks .l:hover{background:#fff;border-top-left-radius:10px;-moz-border-radius-topleft:10px;-webkit-border-top-left-radius:10px;border-bottom-left-radius:10px;-moz-border-radius-bottomleft:10px;-webkit-border-bottom-left-radius:10px;}
+.mi_profile .searchOption .l{background:url(http://static.matrimonialsindia.com/images/b2.png) no-repeat .8em .9em;}
+.features > ul,.features > ul > li{margin:0;}
+.features:before,.features:after,.features > ul:before,.features > ul:after{content:'';display:table;}
+.features,.features:after, .features > ul:after{clear:both;*zoom:1;}
+.features > ul > li{float:left;border-left:1px solid #fff;border-right:1px solid #eee;}
+.features > ul > li:last-child{border:0;}
+.features > ul > li > a{background:url(http://static.matrimonialsindia.com/images/arrow_bottom.png) no-repeat 93% 55%;padding:14px 25px 14px 18px;display:block;}
+.features > ul > li > span{display:block;padding:14px 18px;color:#555;background:#fff;color:#c30;}
+.features > ul > li > a:hover{background:#fff url(http://static.matrimonialsindia.com/images/arrow_bottom.png) no-repeat 93% 55%;color:#c30;}
+
+
+#changeFontSize .fs18{font-size:18px;line-height:22px;color:#690;}
+.font_option a{background:url(http://static.matrimonialsindia.com/images/font_size.png) no-repeat 0 0;float:left;height:25px;}
+.font_option .on_small,.font_option .off_small{width:23px;}
+.font_option .on_big,.font_option .off_big{width:22px;}
+
+.font_option .off_big{background-position:-23px -25px;}
+.font_option .on_big,.font_option .off_big:hover{background-position:-23px 0;}
+.font_option .off_small{background-position:0 -25px;}
+.font_option .off_small:hover,.font_option .on_small{background-position:0 0;}
+
+
+/*   Button Creation */
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #FF3300;
+  border-color: #FF3300;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #FF3300;
+  border-color: #FF3300;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-link {
+  font-weight: normal;
+  color: #428bca;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-sm,
+.btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-xs {
+  padding: 1px 5px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
